@@ -1,7 +1,7 @@
 {
   "firstLayout": "Main_Menu",
   "gdVersion": {
-    "build": 240,
+    "build": 239,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -3731,13 +3731,13 @@
         {
           "name": "ObjectSpawner",
           "type": "ObjectSpawner::ObjectSpawner",
-          "SpawnPeriod": 2,
+          "SpawnPeriod": 1,
           "OffsetX": 0,
           "OffsetY": 0,
           "JustSpawnedAnObject": false,
           "MaxQuantityReached": false,
-          "MaxQuantity": 1,
-          "SpawnerCapacity": 3,
+          "MaxQuantity": 2,
+          "SpawnerCapacity": 4,
           "UnlimitedCapacity": false,
           "RandomPosition": true
         }
@@ -5949,7 +5949,7 @@
               "timeBetweenFrames": 0.09,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\Knight-Idle1.png",
                   "points": [
                     {
@@ -5969,10 +5969,29 @@
                     "x": 16.5,
                     "y": 19
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\Knight-Idle2.png",
                   "points": [
                     {
@@ -5992,10 +6011,29 @@
                     "x": 16.5,
                     "y": 19
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\Knight-Idle3.png",
                   "points": [
                     {
@@ -6015,10 +6053,29 @@
                     "x": 16.5,
                     "y": 19
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\Knight-Idle4.png",
                   "points": [
                     {
@@ -6038,7 +6095,26 @@
                     "x": 16.5,
                     "y": 19
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -6053,7 +6129,7 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\Knight-Run1.png",
                   "points": [
                     {
@@ -6073,10 +6149,29 @@
                     "x": 16.5,
                     "y": 19
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\Knight-Run2.png",
                   "points": [
                     {
@@ -6096,10 +6191,29 @@
                     "x": 16.5,
                     "y": 19
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\Knight-Run3.png",
                   "points": [
                     {
@@ -6119,10 +6233,29 @@
                     "x": 16.5,
                     "y": 19
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\Knight-Run4.png",
                   "points": [
                     {
@@ -6142,10 +6275,29 @@
                     "x": 16.5,
                     "y": 19
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\Knight-Run5.png",
                   "points": [
                     {
@@ -6165,10 +6317,29 @@
                     "x": 16.5,
                     "y": 19
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\Knight-Run6.png",
                   "points": [
                     {
@@ -6188,10 +6359,29 @@
                     "x": 16.5,
                     "y": 19
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\Knight-Run7.png",
                   "points": [
                     {
@@ -6211,10 +6401,29 @@
                     "x": 16.5,
                     "y": 19
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\Knight-Run8.png",
                   "points": [
                     {
@@ -6234,10 +6443,29 @@
                     "x": 16.5,
                     "y": 19
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\Knight-Run9.png",
                   "points": [
                     {
@@ -6257,10 +6485,29 @@
                     "x": 16.5,
                     "y": 19
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\Knight-Run10.png",
                   "points": [
                     {
@@ -6280,10 +6527,29 @@
                     "x": 16.5,
                     "y": 19
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\Knight-Run11.png",
                   "points": [
                     {
@@ -6303,10 +6569,29 @@
                     "x": 16.5,
                     "y": 19
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\Knight-Run12.png",
                   "points": [
                     {
@@ -6326,10 +6611,29 @@
                     "x": 16.5,
                     "y": 19
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\Knight-Run13.png",
                   "points": [
                     {
@@ -6349,10 +6653,29 @@
                     "x": 16.5,
                     "y": 19
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\Knight-Run14.png",
                   "points": [
                     {
@@ -6372,10 +6695,29 @@
                     "x": 16.5,
                     "y": 19
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\Knight-Run15.png",
                   "points": [
                     {
@@ -6395,10 +6737,29 @@
                     "x": 16.5,
                     "y": 19
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\Knight-Run16.png",
                   "points": [
                     {
@@ -6418,7 +6779,26 @@
                     "x": 16.5,
                     "y": 19
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -6433,7 +6813,7 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\Knight-Run1.png",
                   "points": [
                     {
@@ -6453,10 +6833,29 @@
                     "x": 16.5,
                     "y": 19
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\Knight-Run2.png",
                   "points": [
                     {
@@ -6476,10 +6875,29 @@
                     "x": 16.5,
                     "y": 19
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\Knight-Run3.png",
                   "points": [
                     {
@@ -6499,10 +6917,29 @@
                     "x": 16.5,
                     "y": 19
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\Knight-Run4.png",
                   "points": [
                     {
@@ -6522,10 +6959,29 @@
                     "x": 16.5,
                     "y": 19
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\Knight-Run5.png",
                   "points": [
                     {
@@ -6545,10 +7001,29 @@
                     "x": 16.5,
                     "y": 19
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\Knight-Run6.png",
                   "points": [
                     {
@@ -6568,10 +7043,29 @@
                     "x": 16.5,
                     "y": 19
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\Knight-Run7.png",
                   "points": [
                     {
@@ -6591,10 +7085,29 @@
                     "x": 16.5,
                     "y": 19
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\Knight-Run8.png",
                   "points": [
                     {
@@ -6614,10 +7127,29 @@
                     "x": 16.5,
                     "y": 19
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\Knight-Run9.png",
                   "points": [
                     {
@@ -6637,10 +7169,29 @@
                     "x": 16.5,
                     "y": 19
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\Knight-Run10.png",
                   "points": [
                     {
@@ -6660,10 +7211,29 @@
                     "x": 16.5,
                     "y": 19
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\Knight-Run11.png",
                   "points": [
                     {
@@ -6683,10 +7253,29 @@
                     "x": 16.5,
                     "y": 19
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\Knight-Run12.png",
                   "points": [
                     {
@@ -6706,10 +7295,29 @@
                     "x": 16.5,
                     "y": 19
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\Knight-Run13.png",
                   "points": [
                     {
@@ -6729,10 +7337,29 @@
                     "x": 16.5,
                     "y": 19
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\Knight-Run14.png",
                   "points": [
                     {
@@ -6752,10 +7379,29 @@
                     "x": 16.5,
                     "y": 19
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\Knight-Run15.png",
                   "points": [
                     {
@@ -6775,10 +7421,29 @@
                     "x": 16.5,
                     "y": 19
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\Knight-Run16.png",
                   "points": [
                     {
@@ -6798,7 +7463,26 @@
                     "x": 16.5,
                     "y": 19
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -6813,7 +7497,7 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\Knight-Roll3.png",
                   "points": [
                     {
@@ -6833,10 +7517,29 @@
                     "x": 16.5,
                     "y": 19
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\Knight-Roll4.png",
                   "points": [
                     {
@@ -6856,10 +7559,29 @@
                     "x": 16.5,
                     "y": 19
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\Knight-Roll5.png",
                   "points": [
                     {
@@ -6879,10 +7601,29 @@
                     "x": 16.5,
                     "y": 19
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\Knight-Roll6.png",
                   "points": [
                     {
@@ -6902,10 +7643,29 @@
                     "x": 16.5,
                     "y": 19
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\Knight-Roll7.png",
                   "points": [
                     {
@@ -6925,10 +7685,29 @@
                     "x": 16.5,
                     "y": 19
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\Knight-Roll8.png",
                   "points": [
                     {
@@ -6948,7 +7727,26 @@
                     "x": 16.5,
                     "y": 19
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -6963,7 +7761,7 @@
               "timeBetweenFrames": 0.5,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\Knight-Death1.png",
                   "points": [
                     {
@@ -6983,10 +7781,29 @@
                     "x": 16.5,
                     "y": 19
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\Knight-Death2.png",
                   "points": [
                     {
@@ -7006,10 +7823,29 @@
                     "x": 16.5,
                     "y": 19
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\Knight-Death3.png",
                   "points": [
                     {
@@ -7029,10 +7865,29 @@
                     "x": 16.5,
                     "y": 19
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\Knight-Death4.png",
                   "points": [
                     {
@@ -7052,7 +7907,26 @@
                     "x": 16.5,
                     "y": 19
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -7067,7 +7941,7 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\Knight-Hurt1.png",
                   "points": [
                     {
@@ -7087,10 +7961,29 @@
                     "x": 16.5,
                     "y": 19
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\Knight-Hurt2.png",
                   "points": [
                     {
@@ -7110,10 +8003,29 @@
                     "x": 16.5,
                     "y": 19
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\Knight-Hurt3.png",
                   "points": [
                     {
@@ -7133,10 +8045,29 @@
                     "x": 16.5,
                     "y": 19
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\Knight-Hurt4.png",
                   "points": [
                     {
@@ -7156,10 +8087,29 @@
                     "x": 16.5,
                     "y": 19
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\Knight-Hurt5.png",
                   "points": [
                     {
@@ -7179,10 +8129,29 @@
                     "x": 16.5,
                     "y": 19
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\Knight-Hurt6.png",
                   "points": [
                     {
@@ -7202,10 +8171,29 @@
                     "x": 16.5,
                     "y": 19
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets\\Knight-Hurt7.png",
                   "points": [
                     {
@@ -7225,7 +8213,26 @@
                     "x": 16.5,
                     "y": 19
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 13
+                      },
+                      {
+                        "x": 22,
+                        "y": 28
+                      },
+                      {
+                        "x": 11,
+                        "y": 28
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -9160,7 +10167,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 4.1041196646346245,
+        "zoomFactor": 2.114262288024671,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -9424,6 +10431,142 @@
           "x": 1022,
           "y": 560,
           "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 16,
+          "keepRatio": true,
+          "layer": "",
+          "name": "wall_collision",
+          "persistentUuid": "54687093-3453-498d-a3b8-926fbe08e7f6",
+          "width": 112,
+          "x": 913,
+          "y": 497,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 16,
+          "keepRatio": true,
+          "layer": "",
+          "name": "wall_collision",
+          "persistentUuid": "b624cf41-2630-4d60-8fa5-d63bd25f4c9d",
+          "width": 113,
+          "x": 767,
+          "y": 497,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 42,
+          "keepRatio": true,
+          "layer": "",
+          "name": "wall_collision",
+          "persistentUuid": "a4ee5f39-647f-4f0f-b569-74dd6a7dec72",
+          "width": 16,
+          "x": 766,
+          "y": 513,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 42,
+          "keepRatio": true,
+          "layer": "",
+          "name": "wall_collision",
+          "persistentUuid": "93a593a9-c80d-48e5-b3b5-ef0427b9bbf4",
+          "width": 16,
+          "x": 1009,
+          "y": 513,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 46,
+          "keepRatio": true,
+          "layer": "",
+          "name": "wall_collision",
+          "persistentUuid": "13973f0f-f228-44e0-ac3c-9f99ca91ae13",
+          "width": 16,
+          "x": 1009,
+          "y": 592,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 16,
+          "keepRatio": true,
+          "layer": "",
+          "name": "wall_collision",
+          "persistentUuid": "ab67456e-81c3-4b17-8e9d-3d002e58c2af",
+          "width": 97,
+          "x": 913,
+          "y": 625,
+          "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 16,
+          "keepRatio": true,
+          "layer": "",
+          "name": "wall_collision",
+          "persistentUuid": "3734f042-846d-405e-87c1-653575276eaf",
+          "width": 113,
+          "x": 766,
+          "y": 625,
+          "zOrder": 34,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 33,
+          "keepRatio": true,
+          "layer": "",
+          "name": "wall_collision",
+          "persistentUuid": "7f5367cf-4e49-443f-97e4-fdfcb835404c",
+          "width": 16,
+          "x": 767,
+          "y": 592,
+          "zOrder": 35,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -28551,7 +29694,19 @@
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "Knight",
+                    "Enemy_Spawn",
+                    "50",
+                    ""
+                  ]
+                }
+              ],
               "actions": [
                 {
                   "type": {
@@ -50470,7 +51625,6 @@
               "extraInformation": [
                 "PlatformBehavior::PlatformerObjectBehavior"
               ],
-              "choices": [],
               "name": "PlatformerCharacter"
             },
             {
@@ -50480,7 +51634,6 @@
               "extraInformation": [
                 "SmoothCamera::SmoothCamera"
               ],
-              "choices": [],
               "name": "SmoothCamera"
             },
             {
@@ -51219,7 +52372,6 @@
               "extraInformation": [
                 "TopDownMovementBehavior::TopDownMovementBehavior"
               ],
-              "choices": [],
               "name": "Topdown"
             }
           ],
@@ -51891,7 +53043,6 @@
               "extraInformation": [
                 "PlatformBehavior::PlatformerObjectBehavior"
               ],
-              "choices": [],
               "name": "Platformer"
             }
           ],
@@ -53220,7 +54371,6 @@
               "extraInformation": [
                 "ResizableCapability::ResizableBehavior"
               ],
-              "choices": [],
               "name": "Resizable"
             },
             {
@@ -53230,7 +54380,6 @@
               "extraInformation": [
                 "FlippableCapability::FlippableBehavior"
               ],
-              "choices": [],
               "name": "Flippable"
             },
             {
@@ -53240,23 +54389,12 @@
               "extraInformation": [
                 "AnimatableCapability::AnimatableBehavior"
               ],
-              "choices": [],
               "name": "Animation"
             },
             {
               "value": "Mirror",
               "type": "Choice",
               "label": "Flipping method",
-              "choices": [
-                {
-                  "label": "Mirror",
-                  "value": "Mirror"
-                },
-                {
-                  "label": "Animation",
-                  "value": "Animation"
-                }
-              ],
               "name": "FlippingMethod"
             },
             {
@@ -54550,7 +55688,6 @@
               "extraInformation": [
                 "AnimatableCapability::AnimatableBehavior"
               ],
-              "choices": [],
               "name": "Animation"
             },
             {
@@ -54560,7 +55697,6 @@
               "extraInformation": [
                 "TopDownMovementBehavior::TopDownMovementBehavior"
               ],
-              "choices": [],
               "name": "TopDownMovement"
             },
             {
@@ -59560,7 +60696,6 @@
                 "Linear",
                 "Exponential"
               ],
-              "choices": [],
               "advanced": true,
               "name": "ExponentialCoolingRate"
             },
@@ -69123,28 +70258,6 @@
               "value": "Idle",
               "type": "Choice",
               "label": "State",
-              "choices": [
-                {
-                  "label": "Idle",
-                  "value": "Idle"
-                },
-                {
-                  "label": "Hovered",
-                  "value": "Hovered"
-                },
-                {
-                  "label": "PressedInside",
-                  "value": "PressedInside"
-                },
-                {
-                  "label": "PressedOutside",
-                  "value": "PressedOutside"
-                },
-                {
-                  "label": "Validated",
-                  "value": "Validated"
-                }
-              ],
               "hidden": true,
               "name": "State"
             },
@@ -69682,7 +70795,6 @@
               "extraInformation": [
                 "ButtonStates::ButtonFSM"
               ],
-              "choices": [],
               "name": "ButtonFSM"
             },
             {
@@ -69692,7 +70804,6 @@
               "extraInformation": [
                 "EffectCapability::EffectBehavior"
               ],
-              "choices": [],
               "name": "Effect"
             },
             {
@@ -70132,7 +71243,6 @@
               "extraInformation": [
                 "AnimatableCapability::AnimatableBehavior"
               ],
-              "choices": [],
               "name": "Animation"
             },
             {
@@ -70142,7 +71252,6 @@
               "extraInformation": [
                 "ButtonStates::ButtonFSM"
               ],
-              "choices": [],
               "name": "ButtonFSM"
             },
             {
@@ -71536,7 +72645,6 @@
               "extraInformation": [
                 "ButtonStates::ButtonFSM"
               ],
-              "choices": [],
               "name": "ButtonFSM"
             },
             {
@@ -71546,7 +72654,6 @@
               "extraInformation": [
                 "EffectCapability::EffectBehavior"
               ],
-              "choices": [],
               "name": "Effect"
             },
             {
@@ -71591,140 +72698,6 @@
               "type": "Choice",
               "label": "Fade-in easing",
               "group": "Speed",
-              "choices": [
-                {
-                  "label": "linear",
-                  "value": "linear"
-                },
-                {
-                  "label": "easeInQuad",
-                  "value": "easeInQuad"
-                },
-                {
-                  "label": "easeOutQuad",
-                  "value": "easeOutQuad"
-                },
-                {
-                  "label": "easeInOutQuad",
-                  "value": "easeInOutQuad"
-                },
-                {
-                  "label": "easeInCubic",
-                  "value": "easeInCubic"
-                },
-                {
-                  "label": "easeOutCubic",
-                  "value": "easeOutCubic"
-                },
-                {
-                  "label": "easeInOutCubic",
-                  "value": "easeInOutCubic"
-                },
-                {
-                  "label": "easeInQuart",
-                  "value": "easeInQuart"
-                },
-                {
-                  "label": "easeOutQuart",
-                  "value": "easeOutQuart"
-                },
-                {
-                  "label": "easeInOutQuart",
-                  "value": "easeInOutQuart"
-                },
-                {
-                  "label": "easeInQuint",
-                  "value": "easeInQuint"
-                },
-                {
-                  "label": "easeOutQuint",
-                  "value": "easeOutQuint"
-                },
-                {
-                  "label": "easeInOutQuint",
-                  "value": "easeInOutQuint"
-                },
-                {
-                  "label": "easeInOutSine",
-                  "value": "easeInOutSine"
-                },
-                {
-                  "label": "easeInExpo",
-                  "value": "easeInExpo"
-                },
-                {
-                  "label": "easeOutExpo",
-                  "value": "easeOutExpo"
-                },
-                {
-                  "label": "easeInOutExpo",
-                  "value": "easeInOutExpo"
-                },
-                {
-                  "label": "easeInCirc",
-                  "value": "easeInCirc"
-                },
-                {
-                  "label": "easeOutCirc",
-                  "value": "easeOutCirc"
-                },
-                {
-                  "label": "easeInOutCirc",
-                  "value": "easeInOutCirc"
-                },
-                {
-                  "label": "easeOutBounce",
-                  "value": "easeOutBounce"
-                },
-                {
-                  "label": "easeInBack",
-                  "value": "easeInBack"
-                },
-                {
-                  "label": "easeOutBack",
-                  "value": "easeOutBack"
-                },
-                {
-                  "label": "easeInOutBack",
-                  "value": "easeInOutBack"
-                },
-                {
-                  "label": "elastic",
-                  "value": "elastic"
-                },
-                {
-                  "label": "swingFromTo",
-                  "value": "swingFromTo"
-                },
-                {
-                  "label": "swingFrom",
-                  "value": "swingFrom"
-                },
-                {
-                  "label": "swingTo",
-                  "value": "swingTo"
-                },
-                {
-                  "label": "bounce",
-                  "value": "bounce"
-                },
-                {
-                  "label": "bouncePast",
-                  "value": "bouncePast"
-                },
-                {
-                  "label": "easeFromTo",
-                  "value": "easeFromTo"
-                },
-                {
-                  "label": "easeFrom",
-                  "value": "easeFrom"
-                },
-                {
-                  "label": "easeTo",
-                  "value": "easeTo"
-                }
-              ],
               "name": "FadeInEasing"
             },
             {
@@ -71732,140 +72705,6 @@
               "type": "Choice",
               "label": "Fade-out easing",
               "group": "Speed",
-              "choices": [
-                {
-                  "label": "linear",
-                  "value": "linear"
-                },
-                {
-                  "label": "easeInQuad",
-                  "value": "easeInQuad"
-                },
-                {
-                  "label": "easeOutQuad",
-                  "value": "easeOutQuad"
-                },
-                {
-                  "label": "easeInOutQuad",
-                  "value": "easeInOutQuad"
-                },
-                {
-                  "label": "easeInCubic",
-                  "value": "easeInCubic"
-                },
-                {
-                  "label": "easeOutCubic",
-                  "value": "easeOutCubic"
-                },
-                {
-                  "label": "easeInOutCubic",
-                  "value": "easeInOutCubic"
-                },
-                {
-                  "label": "easeInQuart",
-                  "value": "easeInQuart"
-                },
-                {
-                  "label": "easeOutQuart",
-                  "value": "easeOutQuart"
-                },
-                {
-                  "label": "easeInOutQuart",
-                  "value": "easeInOutQuart"
-                },
-                {
-                  "label": "easeInQuint",
-                  "value": "easeInQuint"
-                },
-                {
-                  "label": "easeOutQuint",
-                  "value": "easeOutQuint"
-                },
-                {
-                  "label": "easeInOutQuint",
-                  "value": "easeInOutQuint"
-                },
-                {
-                  "label": "easeInOutSine",
-                  "value": "easeInOutSine"
-                },
-                {
-                  "label": "easeInExpo",
-                  "value": "easeInExpo"
-                },
-                {
-                  "label": "easeOutExpo",
-                  "value": "easeOutExpo"
-                },
-                {
-                  "label": "easeInOutExpo",
-                  "value": "easeInOutExpo"
-                },
-                {
-                  "label": "easeInCirc",
-                  "value": "easeInCirc"
-                },
-                {
-                  "label": "easeOutCirc",
-                  "value": "easeOutCirc"
-                },
-                {
-                  "label": "easeInOutCirc",
-                  "value": "easeInOutCirc"
-                },
-                {
-                  "label": "easeOutBounce",
-                  "value": "easeOutBounce"
-                },
-                {
-                  "label": "easeInBack",
-                  "value": "easeInBack"
-                },
-                {
-                  "label": "easeOutBack",
-                  "value": "easeOutBack"
-                },
-                {
-                  "label": "easeInOutBack",
-                  "value": "easeInOutBack"
-                },
-                {
-                  "label": "elastic",
-                  "value": "elastic"
-                },
-                {
-                  "label": "swingFromTo",
-                  "value": "swingFromTo"
-                },
-                {
-                  "label": "swingFrom",
-                  "value": "swingFrom"
-                },
-                {
-                  "label": "swingTo",
-                  "value": "swingTo"
-                },
-                {
-                  "label": "bounce",
-                  "value": "bounce"
-                },
-                {
-                  "label": "bouncePast",
-                  "value": "bouncePast"
-                },
-                {
-                  "label": "easeFromTo",
-                  "value": "easeFromTo"
-                },
-                {
-                  "label": "easeFrom",
-                  "value": "easeFrom"
-                },
-                {
-                  "label": "easeTo",
-                  "value": "easeTo"
-                }
-              ],
               "name": "FadeOutEasing"
             },
             {
@@ -71888,20 +72727,6 @@
               "value": "Idle",
               "type": "Choice",
               "label": "",
-              "choices": [
-                {
-                  "label": "Idle",
-                  "value": "Idle"
-                },
-                {
-                  "label": "Focused",
-                  "value": "Focused"
-                },
-                {
-                  "label": "Pressed",
-                  "value": "Pressed"
-                }
-              ],
               "hidden": true,
               "name": "PreviousState"
             },
@@ -71930,20 +72755,6 @@
               "value": "NoTween",
               "type": "Choice",
               "label": "",
-              "choices": [
-                {
-                  "label": "NoTween",
-                  "value": "NoTween"
-                },
-                {
-                  "label": "FadeIn",
-                  "value": "FadeIn"
-                },
-                {
-                  "label": "FadeOut",
-                  "value": "FadeOut"
-                }
-              ],
               "hidden": true,
               "name": "TweenState"
             },
@@ -72897,7 +73708,6 @@
               "extraInformation": [
                 "ScalableCapability::ScalableBehavior"
               ],
-              "choices": [],
               "name": "Scale"
             },
             {
@@ -72907,7 +73717,6 @@
               "extraInformation": [
                 "ButtonStates::ButtonFSM"
               ],
-              "choices": [],
               "name": "ButtonFSM"
             },
             {
@@ -72917,7 +73726,6 @@
               "extraInformation": [
                 "Tween::TweenBehavior"
               ],
-              "choices": [],
               "name": "Tween"
             },
             {
@@ -72966,140 +73774,6 @@
               "type": "Choice",
               "label": "Fade-in easing",
               "group": "Speed",
-              "choices": [
-                {
-                  "label": "linear",
-                  "value": "linear"
-                },
-                {
-                  "label": "easeInQuad",
-                  "value": "easeInQuad"
-                },
-                {
-                  "label": "easeOutQuad",
-                  "value": "easeOutQuad"
-                },
-                {
-                  "label": "easeInOutQuad",
-                  "value": "easeInOutQuad"
-                },
-                {
-                  "label": "easeInCubic",
-                  "value": "easeInCubic"
-                },
-                {
-                  "label": "easeOutCubic",
-                  "value": "easeOutCubic"
-                },
-                {
-                  "label": "easeInOutCubic",
-                  "value": "easeInOutCubic"
-                },
-                {
-                  "label": "easeInQuart",
-                  "value": "easeInQuart"
-                },
-                {
-                  "label": "easeOutQuart",
-                  "value": "easeOutQuart"
-                },
-                {
-                  "label": "easeInOutQuart",
-                  "value": "easeInOutQuart"
-                },
-                {
-                  "label": "easeInQuint",
-                  "value": "easeInQuint"
-                },
-                {
-                  "label": "easeOutQuint",
-                  "value": "easeOutQuint"
-                },
-                {
-                  "label": "easeInOutQuint",
-                  "value": "easeInOutQuint"
-                },
-                {
-                  "label": "easeInOutSine",
-                  "value": "easeInOutSine"
-                },
-                {
-                  "label": "easeInExpo",
-                  "value": "easeInExpo"
-                },
-                {
-                  "label": "easeOutExpo",
-                  "value": "easeOutExpo"
-                },
-                {
-                  "label": "easeInOutExpo",
-                  "value": "easeInOutExpo"
-                },
-                {
-                  "label": "easeInCirc",
-                  "value": "easeInCirc"
-                },
-                {
-                  "label": "easeOutCirc",
-                  "value": "easeOutCirc"
-                },
-                {
-                  "label": "easeInOutCirc",
-                  "value": "easeInOutCirc"
-                },
-                {
-                  "label": "easeOutBounce",
-                  "value": "easeOutBounce"
-                },
-                {
-                  "label": "easeInBack",
-                  "value": "easeInBack"
-                },
-                {
-                  "label": "easeOutBack",
-                  "value": "easeOutBack"
-                },
-                {
-                  "label": "easeInOutBack",
-                  "value": "easeInOutBack"
-                },
-                {
-                  "label": "elastic",
-                  "value": "elastic"
-                },
-                {
-                  "label": "swingFromTo",
-                  "value": "swingFromTo"
-                },
-                {
-                  "label": "swingFrom",
-                  "value": "swingFrom"
-                },
-                {
-                  "label": "swingTo",
-                  "value": "swingTo"
-                },
-                {
-                  "label": "bounce",
-                  "value": "bounce"
-                },
-                {
-                  "label": "bouncePast",
-                  "value": "bouncePast"
-                },
-                {
-                  "label": "easeFromTo",
-                  "value": "easeFromTo"
-                },
-                {
-                  "label": "easeFrom",
-                  "value": "easeFrom"
-                },
-                {
-                  "label": "easeTo",
-                  "value": "easeTo"
-                }
-              ],
               "name": "FadeInEasing"
             },
             {
@@ -73107,160 +73781,12 @@
               "type": "Choice",
               "label": "Fade-out easing",
               "group": "Speed",
-              "choices": [
-                {
-                  "label": "linear",
-                  "value": "linear"
-                },
-                {
-                  "label": "easeInQuad",
-                  "value": "easeInQuad"
-                },
-                {
-                  "label": "easeOutQuad",
-                  "value": "easeOutQuad"
-                },
-                {
-                  "label": "easeInOutQuad",
-                  "value": "easeInOutQuad"
-                },
-                {
-                  "label": "easeInCubic",
-                  "value": "easeInCubic"
-                },
-                {
-                  "label": "easeOutCubic",
-                  "value": "easeOutCubic"
-                },
-                {
-                  "label": "easeInOutCubic",
-                  "value": "easeInOutCubic"
-                },
-                {
-                  "label": "easeInQuart",
-                  "value": "easeInQuart"
-                },
-                {
-                  "label": "easeOutQuart",
-                  "value": "easeOutQuart"
-                },
-                {
-                  "label": "easeInOutQuart",
-                  "value": "easeInOutQuart"
-                },
-                {
-                  "label": "easeInQuint",
-                  "value": "easeInQuint"
-                },
-                {
-                  "label": "easeOutQuint",
-                  "value": "easeOutQuint"
-                },
-                {
-                  "label": "easeInOutQuint",
-                  "value": "easeInOutQuint"
-                },
-                {
-                  "label": "easeInOutSine",
-                  "value": "easeInOutSine"
-                },
-                {
-                  "label": "easeInExpo",
-                  "value": "easeInExpo"
-                },
-                {
-                  "label": "easeOutExpo",
-                  "value": "easeOutExpo"
-                },
-                {
-                  "label": "easeInOutExpo",
-                  "value": "easeInOutExpo"
-                },
-                {
-                  "label": "easeInCirc",
-                  "value": "easeInCirc"
-                },
-                {
-                  "label": "easeOutCirc",
-                  "value": "easeOutCirc"
-                },
-                {
-                  "label": "easeInOutCirc",
-                  "value": "easeInOutCirc"
-                },
-                {
-                  "label": "easeOutBounce",
-                  "value": "easeOutBounce"
-                },
-                {
-                  "label": "easeInBack",
-                  "value": "easeInBack"
-                },
-                {
-                  "label": "easeOutBack",
-                  "value": "easeOutBack"
-                },
-                {
-                  "label": "easeInOutBack",
-                  "value": "easeInOutBack"
-                },
-                {
-                  "label": "elastic",
-                  "value": "elastic"
-                },
-                {
-                  "label": "swingFromTo",
-                  "value": "swingFromTo"
-                },
-                {
-                  "label": "swingFrom",
-                  "value": "swingFrom"
-                },
-                {
-                  "label": "swingTo",
-                  "value": "swingTo"
-                },
-                {
-                  "label": "bounce",
-                  "value": "bounce"
-                },
-                {
-                  "label": "bouncePast",
-                  "value": "bouncePast"
-                },
-                {
-                  "label": "easeFromTo",
-                  "value": "easeFromTo"
-                },
-                {
-                  "label": "easeFrom",
-                  "value": "easeFrom"
-                },
-                {
-                  "label": "easeTo",
-                  "value": "easeTo"
-                }
-              ],
               "name": "FadeOutEasing"
             },
             {
               "value": "Idle",
               "type": "Choice",
               "label": "",
-              "choices": [
-                {
-                  "label": "Idle",
-                  "value": "Idle"
-                },
-                {
-                  "label": "Focused",
-                  "value": "Focused"
-                },
-                {
-                  "label": "Pressed",
-                  "value": "Pressed"
-                }
-              ],
               "hidden": true,
               "name": "PreviousState"
             }
@@ -74221,7 +74747,6 @@
               "extraInformation": [
                 "ButtonStates::ButtonFSM"
               ],
-              "choices": [],
               "name": "ButtonFSM"
             },
             {
@@ -74231,7 +74756,6 @@
               "extraInformation": [
                 "Tween::TweenBehavior"
               ],
-              "choices": [],
               "name": "Tween"
             },
             {
@@ -74277,140 +74801,6 @@
               "type": "Choice",
               "label": "Fade-in easing",
               "group": "Speed",
-              "choices": [
-                {
-                  "label": "linear",
-                  "value": "linear"
-                },
-                {
-                  "label": "easeInQuad",
-                  "value": "easeInQuad"
-                },
-                {
-                  "label": "easeOutQuad",
-                  "value": "easeOutQuad"
-                },
-                {
-                  "label": "easeInOutQuad",
-                  "value": "easeInOutQuad"
-                },
-                {
-                  "label": "easeInCubic",
-                  "value": "easeInCubic"
-                },
-                {
-                  "label": "easeOutCubic",
-                  "value": "easeOutCubic"
-                },
-                {
-                  "label": "easeInOutCubic",
-                  "value": "easeInOutCubic"
-                },
-                {
-                  "label": "easeInQuart",
-                  "value": "easeInQuart"
-                },
-                {
-                  "label": "easeOutQuart",
-                  "value": "easeOutQuart"
-                },
-                {
-                  "label": "easeInOutQuart",
-                  "value": "easeInOutQuart"
-                },
-                {
-                  "label": "easeInQuint",
-                  "value": "easeInQuint"
-                },
-                {
-                  "label": "easeOutQuint",
-                  "value": "easeOutQuint"
-                },
-                {
-                  "label": "easeInOutQuint",
-                  "value": "easeInOutQuint"
-                },
-                {
-                  "label": "easeInOutSine",
-                  "value": "easeInOutSine"
-                },
-                {
-                  "label": "easeInExpo",
-                  "value": "easeInExpo"
-                },
-                {
-                  "label": "easeOutExpo",
-                  "value": "easeOutExpo"
-                },
-                {
-                  "label": "easeInOutExpo",
-                  "value": "easeInOutExpo"
-                },
-                {
-                  "label": "easeInCirc",
-                  "value": "easeInCirc"
-                },
-                {
-                  "label": "easeOutCirc",
-                  "value": "easeOutCirc"
-                },
-                {
-                  "label": "easeInOutCirc",
-                  "value": "easeInOutCirc"
-                },
-                {
-                  "label": "easeOutBounce",
-                  "value": "easeOutBounce"
-                },
-                {
-                  "label": "easeInBack",
-                  "value": "easeInBack"
-                },
-                {
-                  "label": "easeOutBack",
-                  "value": "easeOutBack"
-                },
-                {
-                  "label": "easeInOutBack",
-                  "value": "easeInOutBack"
-                },
-                {
-                  "label": "elastic",
-                  "value": "elastic"
-                },
-                {
-                  "label": "swingFromTo",
-                  "value": "swingFromTo"
-                },
-                {
-                  "label": "swingFrom",
-                  "value": "swingFrom"
-                },
-                {
-                  "label": "swingTo",
-                  "value": "swingTo"
-                },
-                {
-                  "label": "bounce",
-                  "value": "bounce"
-                },
-                {
-                  "label": "bouncePast",
-                  "value": "bouncePast"
-                },
-                {
-                  "label": "easeFromTo",
-                  "value": "easeFromTo"
-                },
-                {
-                  "label": "easeFrom",
-                  "value": "easeFrom"
-                },
-                {
-                  "label": "easeTo",
-                  "value": "easeTo"
-                }
-              ],
               "name": "FadeInEasing"
             },
             {
@@ -74418,160 +74808,12 @@
               "type": "Choice",
               "label": "Fade-out easing",
               "group": "Speed",
-              "choices": [
-                {
-                  "label": "linear",
-                  "value": "linear"
-                },
-                {
-                  "label": "easeInQuad",
-                  "value": "easeInQuad"
-                },
-                {
-                  "label": "easeOutQuad",
-                  "value": "easeOutQuad"
-                },
-                {
-                  "label": "easeInOutQuad",
-                  "value": "easeInOutQuad"
-                },
-                {
-                  "label": "easeInCubic",
-                  "value": "easeInCubic"
-                },
-                {
-                  "label": "easeOutCubic",
-                  "value": "easeOutCubic"
-                },
-                {
-                  "label": "easeInOutCubic",
-                  "value": "easeInOutCubic"
-                },
-                {
-                  "label": "easeInQuart",
-                  "value": "easeInQuart"
-                },
-                {
-                  "label": "easeOutQuart",
-                  "value": "easeOutQuart"
-                },
-                {
-                  "label": "easeInOutQuart",
-                  "value": "easeInOutQuart"
-                },
-                {
-                  "label": "easeInQuint",
-                  "value": "easeInQuint"
-                },
-                {
-                  "label": "easeOutQuint",
-                  "value": "easeOutQuint"
-                },
-                {
-                  "label": "easeInOutQuint",
-                  "value": "easeInOutQuint"
-                },
-                {
-                  "label": "easeInOutSine",
-                  "value": "easeInOutSine"
-                },
-                {
-                  "label": "easeInExpo",
-                  "value": "easeInExpo"
-                },
-                {
-                  "label": "easeOutExpo",
-                  "value": "easeOutExpo"
-                },
-                {
-                  "label": "easeInOutExpo",
-                  "value": "easeInOutExpo"
-                },
-                {
-                  "label": "easeInCirc",
-                  "value": "easeInCirc"
-                },
-                {
-                  "label": "easeOutCirc",
-                  "value": "easeOutCirc"
-                },
-                {
-                  "label": "easeInOutCirc",
-                  "value": "easeInOutCirc"
-                },
-                {
-                  "label": "easeOutBounce",
-                  "value": "easeOutBounce"
-                },
-                {
-                  "label": "easeInBack",
-                  "value": "easeInBack"
-                },
-                {
-                  "label": "easeOutBack",
-                  "value": "easeOutBack"
-                },
-                {
-                  "label": "easeInOutBack",
-                  "value": "easeInOutBack"
-                },
-                {
-                  "label": "elastic",
-                  "value": "elastic"
-                },
-                {
-                  "label": "swingFromTo",
-                  "value": "swingFromTo"
-                },
-                {
-                  "label": "swingFrom",
-                  "value": "swingFrom"
-                },
-                {
-                  "label": "swingTo",
-                  "value": "swingTo"
-                },
-                {
-                  "label": "bounce",
-                  "value": "bounce"
-                },
-                {
-                  "label": "bouncePast",
-                  "value": "bouncePast"
-                },
-                {
-                  "label": "easeFromTo",
-                  "value": "easeFromTo"
-                },
-                {
-                  "label": "easeFrom",
-                  "value": "easeFrom"
-                },
-                {
-                  "label": "easeTo",
-                  "value": "easeTo"
-                }
-              ],
               "name": "FadeOutEasing"
             },
             {
               "value": "Idle",
               "type": "Choice",
               "label": "",
-              "choices": [
-                {
-                  "label": "Idle",
-                  "value": "Idle"
-                },
-                {
-                  "label": "Focused",
-                  "value": "Focused"
-                },
-                {
-                  "label": "Pressed",
-                  "value": "Pressed"
-                }
-              ],
               "hidden": true,
               "name": "PreviousState"
             }
@@ -76187,28 +76429,6 @@
               "value": "Idle",
               "type": "Choice",
               "label": "State",
-              "choices": [
-                {
-                  "label": "Idle",
-                  "value": "Idle"
-                },
-                {
-                  "label": "Hovered",
-                  "value": "Hovered"
-                },
-                {
-                  "label": "PressedInside",
-                  "value": "PressedInside"
-                },
-                {
-                  "label": "PressedOutside",
-                  "value": "PressedOutside"
-                },
-                {
-                  "label": "Validated",
-                  "value": "Validated"
-                }
-              ],
               "hidden": true,
               "name": "State"
             },
@@ -78156,7 +78376,6 @@
                 "Label",
                 "FillBar"
               ],
-              "choices": [],
               "hidden": true,
               "name": "BarLeftPadding"
             },
@@ -78169,7 +78388,6 @@
                 "Label",
                 "FillBar"
               ],
-              "choices": [],
               "hidden": true,
               "name": "BarTopPadding"
             },
@@ -78182,7 +78400,6 @@
                 "Label",
                 "FillBar"
               ],
-              "choices": [],
               "hidden": true,
               "name": "BarRightPadding"
             },
@@ -78195,7 +78412,6 @@
                 "Label",
                 "FillBar"
               ],
-              "choices": [],
               "hidden": true,
               "name": "BarBottomPadding"
             },
@@ -78262,7 +78478,6 @@
               "extraInformation": [
                 "Thumb"
               ],
-              "choices": [],
               "hidden": true,
               "name": "ThumbAnchorOrigin"
             },
@@ -78274,7 +78489,6 @@
               "extraInformation": [
                 "FillBar"
               ],
-              "choices": [],
               "hidden": true,
               "name": "ThumbAnchorTarget"
             },
@@ -78286,7 +78500,6 @@
               "extraInformation": [
                 "Label"
               ],
-              "choices": [],
               "hidden": true,
               "name": "ShowLabel"
             },
@@ -83242,7 +83455,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.3289726923268,
+        "zoomFactor": 2.1855559102530098,
         "windowMask": false
       }
     },
