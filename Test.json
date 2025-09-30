@@ -3763,12 +3763,12 @@
         {
           "name": "ObjectSpawner",
           "type": "ObjectSpawner::ObjectSpawner",
-          "SpawnPeriod": 1,
+          "SpawnPeriod": 0.5,
           "OffsetX": 0,
           "OffsetY": 0,
           "JustSpawnedAnObject": false,
           "MaxQuantityReached": false,
-          "MaxQuantity": 2,
+          "MaxQuantity": 3,
           "SpawnerCapacity": 4,
           "UnlimitedCapacity": false,
           "RandomPosition": true
@@ -9162,7 +9162,29 @@
       ]
     }
   ],
-  "variables": [],
+  "variables": [
+    {
+      "name": "CharacterStats",
+      "type": "structure",
+      "children": [
+        {
+          "name": "FireRate",
+          "type": "string",
+          "value": "0"
+        },
+        {
+          "name": "Health",
+          "type": "string",
+          "value": "0"
+        },
+        {
+          "name": "Power",
+          "type": "string",
+          "value": "0"
+        }
+      ]
+    }
+  ],
   "layouts": [
     {
       "b": 58,
@@ -10190,7 +10212,7 @@
       "title": "",
       "v": 17,
       "uiSettings": {
-        "grid": true,
+        "grid": false,
         "gridType": "rectangular",
         "gridWidth": 304,
         "gridHeight": 192,
@@ -10198,8 +10220,8 @@
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": true,
-        "zoomFactor": 1.8515977016557537,
+        "snap": false,
+        "zoomFactor": 2.1855559102530724,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -10231,7 +10253,7 @@
           "persistentUuid": "50e5289e-699b-4a42-915c-e350ae0e0959",
           "width": 0,
           "x": 719,
-          "y": 633,
+          "y": 632,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -10602,6 +10624,41 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 15,
+          "keepRatio": true,
+          "layer": "Controls",
+          "name": "Movement_text",
+          "opacity": 204,
+          "persistentUuid": "d73c29b0-2937-4366-aee9-efd108d8d1dd",
+          "width": 90,
+          "x": 798,
+          "y": 611,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Controls",
+          "name": "Attack_text",
+          "opacity": 204,
+          "persistentUuid": "444dd922-1d69-4271-95a8-20ccd9cdd62a",
+          "width": 0,
+          "x": 748,
+          "y": 626,
+          "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -10664,6 +10721,44 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Movement_text",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "WASD to move",
+            "opacity": 255,
+            "scale": 0.5,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "assets\\Text\\PixelOperator8-Bold.fnt",
+            "textureAtlasResourceName": "assets\\Text\\PixelOperator8-Bold.png",
+            "align": "left",
+            "verticalTextAlignment": "center"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Attack_text",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "Left-Click to Attack",
+            "opacity": 255,
+            "scale": 0.5,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "assets\\Text\\PixelOperator8-Bold.fnt",
+            "textureAtlasResourceName": "assets\\Text\\PixelOperator8-Bold.png",
+            "align": "left",
+            "verticalTextAlignment": "center"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -10680,6 +10775,12 @@
           },
           {
             "objectName": "Spike"
+          },
+          {
+            "objectName": "Movement_text"
+          },
+          {
+            "objectName": "Attack_text"
           }
         ]
       },
@@ -10848,6 +10949,59 @@
               }
             }
           ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Controls",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
         }
       ],
       "behaviorsSharedData": [
@@ -10894,6 +11048,10 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
         },
         {
           "name": "TopDownMovement",
@@ -29086,50 +29244,6 @@
               ]
             },
             {
-              "disabled": true,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Entities",
-                    "Knight",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Health::Health::Hit"
-                  },
-                  "parameters": [
-                    "Knight",
-                    "Health",
-                    "1",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "Knight",
-                    "Animation",
-                    "=",
-                    "\"Hurt\""
-                  ]
-                }
-              ]
-            },
-            {
               "colorB": 228,
               "colorG": 176,
               "colorR": 74,
@@ -29300,6 +29414,17 @@
           "parameters": []
         },
         {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Player_Damage",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -29330,8 +29455,74 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Space\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "Knight",
+                "100",
+                "100",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "Knight",
+                "\"dash\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "Knight",
+                "\"dash\"",
+                ">",
+                "0.3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TopDownMovementBehavior::MaxSpeed"
+              },
+              "parameters": [
+                "Knight",
+                "TopDownMovement",
+                "=",
+                "130"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -29945,17 +30136,6 @@
                     "=",
                     "\"Hurt\""
                   ]
-                },
-                {
-                  "type": {
-                    "value": "PickNearest"
-                  },
-                  "parameters": [
-                    "Enemies",
-                    "Knight.X()",
-                    "Knight.Y()",
-                    ""
-                  ]
                 }
               ],
               "actions": [
@@ -29966,7 +30146,7 @@
                   "parameters": [
                     "Enemies",
                     "Knight",
-                    "30",
+                    "50",
                     ""
                   ]
                 }
@@ -85116,7 +85296,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 2.579747551301541,
+        "zoomFactor": 0.9227465364204573,
         "windowMask": false
       }
     },
