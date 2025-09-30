@@ -3661,6 +3661,7 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+<<<<<<< HEAD
       },
       {
         "file": "Miside Mita Lonely Lonely Dance with other Mitas!.mp4",
@@ -3675,6 +3676,8 @@
         "metadata": "",
         "name": "Erm.mp4",
         "userAdded": false
+=======
+>>>>>>> parent of adf1707 (Upgrades people Upgrades)
       }
     ],
     "resourceFolders": []
@@ -14997,14 +15000,23 @@
       "uiSettings": {
         "grid": false,
         "gridType": "rectangular",
+<<<<<<< HEAD
         "gridWidth": 256,
         "gridHeight": 128,
+=======
+        "gridWidth": 304,
+        "gridHeight": 192,
+>>>>>>> parent of adf1707 (Upgrades people Upgrades)
         "gridOffsetX": 0,
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
+<<<<<<< HEAD
         "zoomFactor": 2.259253576955614,
+=======
+        "zoomFactor": 0.4163025217733443,
+>>>>>>> parent of adf1707 (Upgrades people Upgrades)
         "windowMask": false
       },
       "objectsGroups": [],
@@ -15271,6 +15283,294 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+<<<<<<< HEAD
+=======
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 18,
+          "keepRatio": true,
+          "layer": "",
+          "name": "wall_collision",
+          "persistentUuid": "54687093-3453-498d-a3b8-926fbe08e7f6",
+          "width": 132,
+          "x": 780,
+          "y": 561,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 18,
+          "keepRatio": true,
+          "layer": "",
+          "name": "wall_collision",
+          "persistentUuid": "b624cf41-2630-4d60-8fa5-d63bd25f4c9d",
+          "width": 131,
+          "x": 609,
+          "y": 561,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "wall_collision",
+          "persistentUuid": "a4ee5f39-647f-4f0f-b569-74dd6a7dec72",
+          "width": 16,
+          "x": 609,
+          "y": 576,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "wall_collision",
+          "persistentUuid": "93a593a9-c80d-48e5-b3b5-ef0427b9bbf4",
+          "width": 17,
+          "x": 895,
+          "y": 577,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 50,
+          "keepRatio": true,
+          "layer": "",
+          "name": "wall_collision",
+          "persistentUuid": "13973f0f-f228-44e0-ac3c-9f99ca91ae13",
+          "width": 19,
+          "x": 894,
+          "y": 697,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 21,
+          "keepRatio": true,
+          "layer": "",
+          "name": "wall_collision",
+          "persistentUuid": "ab67456e-81c3-4b17-8e9d-3d002e58c2af",
+          "width": 132,
+          "x": 781,
+          "y": 746,
+          "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 21,
+          "keepRatio": true,
+          "layer": "",
+          "name": "wall_collision",
+          "persistentUuid": "3734f042-846d-405e-87c1-653575276eaf",
+          "width": 130,
+          "x": 609,
+          "y": 746,
+          "zOrder": 34,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 48,
+          "keepRatio": true,
+          "layer": "",
+          "name": "wall_collision",
+          "persistentUuid": "7f5367cf-4e49-443f-97e4-fdfcb835404c",
+          "width": 16,
+          "x": 608,
+          "y": 699,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Movement_text",
+          "persistentUuid": "a3dde41d-ade6-4d76-acac-1bcb53d64a09",
+          "width": 0,
+          "x": 799,
+          "y": 613,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Attack_text",
+          "persistentUuid": "4151d922-f210-4ab8-acf8-1cbe789b6192",
+          "width": 0,
+          "x": 751,
+          "y": 628,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 64,
+          "height": 53,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "RedFlatBar",
+          "persistentUuid": "01207b38-1c22-4527-bcf5-19ebc72cdf10",
+          "width": 398,
+          "x": 23,
+          "y": 22,
+          "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Spike",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.25,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "floor_spikes_anim_f3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Movement_text",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "WASD to move",
+            "opacity": 255,
+            "scale": 0.5,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "assets\\Text\\PixelOperator8-Bold.fnt",
+            "textureAtlasResourceName": "assets\\Text\\PixelOperator8-Bold.png",
+            "align": "left",
+            "verticalTextAlignment": "center"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Attack_text",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "Left-Click to Attack",
+            "opacity": 255,
+            "scale": 0.5,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "assets\\Text\\PixelOperator8-Bold.fnt",
+            "textureAtlasResourceName": "assets\\Text\\PixelOperator8-Bold.png",
+            "align": "left",
+            "verticalTextAlignment": "center"
+          }
+>>>>>>> parent of adf1707 (Upgrades people Upgrades)
         }
       ],
       "objects": [],
@@ -15285,6 +15585,18 @@
           },
           {
             "folderName": "Character Stuff"
+<<<<<<< HEAD
+=======
+          },
+          {
+            "objectName": "Spike"
+          },
+          {
+            "objectName": "Movement_text"
+          },
+          {
+            "objectName": "Attack_text"
+>>>>>>> parent of adf1707 (Upgrades people Upgrades)
           }
         ]
       },
