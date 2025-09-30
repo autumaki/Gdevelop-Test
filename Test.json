@@ -3662,6 +3662,7 @@
         "preloadInCache": false,
         "userAdded": false
 <<<<<<< HEAD
+<<<<<<< HEAD
       },
       {
         "file": "Miside Mita Lonely Lonely Dance with other Mitas!.mp4",
@@ -3676,6 +3677,8 @@
         "metadata": "",
         "name": "Erm.mp4",
         "userAdded": false
+=======
+>>>>>>> parent of adf1707 (Upgrades people Upgrades)
 =======
 >>>>>>> parent of adf1707 (Upgrades people Upgrades)
       }
@@ -15001,8 +15004,13 @@
         "grid": false,
         "gridType": "rectangular",
 <<<<<<< HEAD
+<<<<<<< HEAD
         "gridWidth": 256,
         "gridHeight": 128,
+=======
+        "gridWidth": 304,
+        "gridHeight": 192,
+>>>>>>> parent of adf1707 (Upgrades people Upgrades)
 =======
         "gridWidth": 304,
         "gridHeight": 192,
@@ -15013,7 +15021,11 @@
         "gridAlpha": 0.8,
         "snap": false,
 <<<<<<< HEAD
+<<<<<<< HEAD
         "zoomFactor": 2.259253576955614,
+=======
+        "zoomFactor": 0.4163025217733443,
+>>>>>>> parent of adf1707 (Upgrades people Upgrades)
 =======
         "zoomFactor": 0.4163025217733443,
 >>>>>>> parent of adf1707 (Upgrades people Upgrades)
@@ -15570,6 +15582,9 @@
             "align": "left",
             "verticalTextAlignment": "center"
           }
+<<<<<<< HEAD
+>>>>>>> parent of adf1707 (Upgrades people Upgrades)
+=======
 >>>>>>> parent of adf1707 (Upgrades people Upgrades)
         }
       ],
@@ -15596,6 +15611,9 @@
           },
           {
             "objectName": "Attack_text"
+<<<<<<< HEAD
+>>>>>>> parent of adf1707 (Upgrades people Upgrades)
+=======
 >>>>>>> parent of adf1707 (Upgrades people Upgrades)
           }
         ]
