@@ -1,7 +1,7 @@
 {
   "firstLayout": "Main_Menu",
   "gdVersion": {
-    "build": 242,
+    "build": 239,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -3603,6 +3603,63 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Slash/Bullet.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Slash\\Bullet.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Flat Bar Red Fill Bar2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Flat Bar Red Fill Bar.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/212e9679eaae4753beaa5d595d7c80ea66df3235485c6a3963e88b0d936a1798_Flat Bar Red Fill Bar.png",
+          "name": "Flat Bar Red Fill Bar.png"
+        }
+      },
+      {
+        "file": "assets/Flat Bar White Border2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Flat Bar White Border.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/c090d31cafed0c8ef7bb4d5af75a7dbf7149bcc03a7d5d63ae997d59100e362e_Flat Bar White Border.png",
+          "name": "Flat Bar White Border.png"
+        }
+      },
+      {
+        "file": "YOU DIED (HD).mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "YOU DIED (HD).mp4",
+        "userAdded": false
+      },
+      {
+        "file": "assets/hornet.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\hornet.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "hornet_gitgud.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "hornet_gitgud.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -6098,11 +6155,18 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Flash",
+          "type": "Flash::Flash",
+          "HalfPeriodTime": 0.1,
+          "IsFlashing": false,
+          "FlashDuration": 0
+        },
+        {
           "name": "Health",
           "type": "Health::Health",
-          "Health": 550,
+          "Health": 5,
           "CurrentHealth": 0,
-          "MaxHealth": 551,
+          "MaxHealth": 5,
           "DamageCooldown": 1.5,
           "AllowOverHealing": false,
           "IsHealthJustDamaged": false,
@@ -9493,14 +9557,176 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Bullet",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Slash\\Bullet.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 16,
+                        "y": 0
+                      },
+                      {
+                        "x": 16,
+                        "y": 16
+                      },
+                      {
+                        "x": 0,
+                        "y": 16
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "3d6c54e76a9a06cbd7629c1e78388d4ab808bbf36d644c61d6a14c9ad34d4f89",
+      "name": "RedFlatBar",
+      "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
+      "variant": "Red Flat Bar",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "PreviousHighValueDuration": 0,
+        "ShowLabel": true,
+        "BarTopPadding": 4,
+        "BarBottomPadding": 6,
+        "BarLeftPadding": 4,
+        "BarRightPadding": 4,
+        "MaxValue": 5,
+        "InitialValue": 5
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "You_Died",
+      "type": "Video::VideoObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "opacity": 255,
+        "loop": false,
+        "volume": 50,
+        "videoResource": "YOU DIED (HD).mp4"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "gitgud",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\hornet.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 176,
+                        "y": 0
+                      },
+                      {
+                        "x": 176,
+                        "y": 124
+                      },
+                      {
+                        "x": 0,
+                        "y": 124
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
       {
+        "objectName": "RedFlatBar"
+      },
+      {
         "folderName": "game_Over",
         "children": [
+          {
+            "objectName": "gitgud"
+          },
+          {
+            "objectName": "You_Died"
+          },
           {
             "objectName": "GameOver"
           }
@@ -9510,7 +9736,7 @@
         "folderName": "Weapon",
         "children": [
           {
-            "objectName": "Bullet"
+            "objectName": ""
           },
           {
             "objectName": "Melee"
@@ -9520,6 +9746,9 @@
           },
           {
             "objectName": "Golden_Knight_Sword"
+          },
+          {
+            "objectName": "Bullet"
           }
         ]
       },
@@ -10853,7 +11082,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4913877545329367,
+        "zoomFactor": 0.3300560049165935,
         "windowMask": false
       },
       "objectsGroups": [
@@ -11617,7 +11846,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "..\\..\\..\\..\\Downloads\\ezgif-split\\1.png",
+                      "image": "5.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -11653,7 +11882,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "..\\..\\..\\..\\Downloads\\ezgif-split\\2.png",
+                      "image": "6.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -11689,7 +11918,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "..\\..\\..\\..\\Downloads\\ezgif-split\\4.png",
+                      "image": "8.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -11832,7 +12061,7 @@
                 "",
                 "GameOver_Screen Assets\\Sound Effects And Voice Lines\\glass crack effect.mp3",
                 "",
-                "",
+                "20",
                 ""
               ]
             },
@@ -11844,7 +12073,7 @@
                 "",
                 "GameOver_Screen Assets\\Sound Effects And Voice Lines\\glass crack effect.mp3",
                 "",
-                "",
+                "20",
                 ""
               ]
             },
@@ -11856,7 +12085,7 @@
                 "",
                 "GameOver_Screen Assets\\Sound Effects And Voice Lines\\glass crack effect.mp3",
                 "",
-                "",
+                "20",
                 ""
               ]
             },
@@ -11896,7 +12125,7 @@
                 "",
                 "GameOver_Screen Assets\\Sound Effects And Voice Lines\\Gmae_Over.mp3",
                 "",
-                "",
+                "15",
                 ""
               ]
             },
@@ -11908,7 +12137,7 @@
                 "",
                 "GameOver_Screen Assets\\Sound Effects And Voice Lines\\Gmae_Over.mp3",
                 "",
-                "",
+                "15",
                 ""
               ]
             },
@@ -12164,6 +12393,10 @@
           "type": "FireBullet::FireBullet"
         },
         {
+          "name": "Flash",
+          "type": "Flash::Flash"
+        },
+        {
           "name": "Flippable",
           "type": "FlippableCapability::FlippableBehavior"
         },
@@ -12225,7 +12458,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 2.259253576955614,
+        "zoomFactor": 0.4163025217733443,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -13123,7 +13356,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.4790395861757797,
+        "zoomFactor": 0.8416428125373345,
         "windowMask": true
       },
       "objectsGroups": [],
@@ -25479,7 +25712,7 @@
                   "parameters": [
                     "Knight",
                     "Health",
-                    "15",
+                    "1",
                     "",
                     "",
                     ""
@@ -25658,7 +25891,7 @@
                   "parameters": [
                     "Knight",
                     "Health",
-                    "15",
+                    "1",
                     "",
                     "",
                     ""
@@ -25837,7 +26070,7 @@
                   "parameters": [
                     "Knight",
                     "Health",
-                    "15",
+                    "1",
                     "",
                     "",
                     ""
@@ -26160,7 +26393,7 @@
               "parameters": [
                 "Knight",
                 "Health",
-                "20",
+                "1",
                 "",
                 "",
                 ""
@@ -26226,7 +26459,7 @@
               "parameters": [
                 "Knight",
                 "Health",
-                "20",
+                "1",
                 "",
                 "",
                 ""
@@ -26292,7 +26525,7 @@
               "parameters": [
                 "Knight",
                 "Health",
-                "20",
+                "1",
                 "",
                 "",
                 ""
@@ -26580,7 +26813,7 @@
                   "parameters": [
                     "Knight",
                     "Health",
-                    "15",
+                    "1",
                     "",
                     "",
                     ""
@@ -26779,7 +27012,7 @@
                   "parameters": [
                     "Knight",
                     "Health",
-                    "35",
+                    "1",
                     "",
                     "",
                     ""
@@ -27951,7 +28184,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.27962265218393756,
+        "zoomFactor": 0.19415059112740768,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -27981,7 +28214,7 @@
           "height": 1540,
           "keepRatio": true,
           "layer": "Layer",
-          "name": "NewSprite",
+          "name": "gitgud",
           "persistentUuid": "66c36756-d4d3-451f-9658-aa7897ac1d59",
           "width": 4326,
           "x": -857,
@@ -27992,92 +28225,9 @@
           "initialVariables": []
         }
       ],
-      "objects": [
-        {
-          "assetStoreId": "",
-          "name": "You_Died",
-          "type": "Video::VideoObject",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "opacity": 255,
-            "loop": false,
-            "volume": 50,
-            "videoResource": "YOU DIED (HD).mp4"
-          }
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "NewSprite",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\hornet.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 176,
-                            "y": 0
-                          },
-                          {
-                            "x": 176,
-                            "y": 124
-                          },
-                          {
-                            "x": 0,
-                            "y": 124
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ],
+      "objects": [],
       "objectsFolderStructure": {
-        "folderName": "__ROOT",
-        "children": [
-          {
-            "objectName": "You_Died"
-          },
-          {
-            "objectName": "NewSprite"
-          }
-        ]
+        "folderName": "__ROOT"
       },
       "events": [
         {
@@ -28148,16 +28298,6 @@
               "parameters": [
                 "",
                 "\"Layer\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Main_Room\"",
-                ""
               ]
             }
           ]
@@ -32126,6 +32266,7 @@
           ]
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -32168,6 +32309,7 @@
           ]
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -32645,7 +32787,6 @@
           ]
         },
         {
-          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -35528,7 +35669,7 @@
                   "parameters": [
                     "Knight",
                     "Health",
-                    "20",
+                    "1",
                     "",
                     "",
                     ""
@@ -39495,7 +39636,7 @@
                   "parameters": [
                     "Knight",
                     "Health",
-                    "20",
+                    "1",
                     "",
                     "",
                     ""
@@ -44239,7 +44380,7 @@
                   "parameters": [
                     "Knight",
                     "Health",
-                    "20",
+                    "1",
                     "",
                     "",
                     ""
@@ -44580,6 +44721,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Boss_Phase 1_Skill_ATK_Logic",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -44590,6 +44732,7 @@
                   "actions": []
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -95781,7 +95924,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 3.253858118463286,
+        "zoomFactor": 0.731578646375303,
         "windowMask": false
       }
     }
