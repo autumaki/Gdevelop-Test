@@ -15519,7 +15519,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.295291655123629,
+        "zoomFactor": 1.9934590384902569,
         "windowMask": true
       },
       "objectsGroups": [],
@@ -17301,7 +17301,7 @@
             {
               "name": "Health",
               "type": "Health::Health",
-              "Health": 0,
+              "Health": 1500,
               "CurrentHealth": 0,
               "MaxHealth": 1500,
               "DamageCooldown": 0,
