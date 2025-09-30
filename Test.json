@@ -3603,6 +3603,54 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Collision_CHECK4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Collision_CHECK4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Victory_Door.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Victory_Door.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Agay/1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Agay\\1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Agay/2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Agay\\2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Agay/3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Agay\\3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Agay/4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Agay\\4.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -6068,9 +6116,9 @@
         {
           "name": "Health",
           "type": "Health::Health",
-          "Health": 550,
+          "Health": 330,
           "CurrentHealth": 0,
-          "MaxHealth": 551,
+          "MaxHealth": 330,
           "DamageCooldown": 1.5,
           "AllowOverHealing": false,
           "IsHealthJustDamaged": false,
@@ -10504,16 +10552,16 @@
           "behaviors": [],
           "animations": [
             {
-              "name": ".\\..\\..\\..\\Downloads\\ezgif-split\\",
+              "name": "agay",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": true,
-                  "timeBetweenFrames": 0.1111111111111111,
+                  "timeBetweenFrames": 0.09090909090909091,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "6.png",
+                      "image": "Agay\\1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -10549,7 +10597,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "..\\..\\..\\..\\Downloads\\ezgif-split\\1.png",
+                      "image": "Agay\\2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -10585,7 +10633,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "..\\..\\..\\..\\Downloads\\ezgif-split\\2.png",
+                      "image": "Agay\\3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -10621,7 +10669,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "..\\..\\..\\..\\Downloads\\ezgif-split\\4.png",
+                      "image": "Agay\\4.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -10656,17 +10704,6 @@
                       ]
                     }
                   ]
-                }
-              ]
-            },
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": []
                 }
               ]
             }
@@ -11679,7 +11716,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.4790395861757797,
+        "zoomFactor": 2.599152591679724,
         "windowMask": true
       },
       "objectsGroups": [],
@@ -13249,6 +13286,23 @@
           "x": 652,
           "y": 380,
           "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 70,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Victory_Door",
+          "persistentUuid": "61a20c6e-4885-4a19-9b84-995f95c7ef97",
+          "width": 54,
+          "x": 530,
+          "y": 146,
+          "zOrder": 60,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -16469,7 +16523,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Collision_CHECK3",
+                      "image": "Collision_CHECK4",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -16489,11 +16543,11 @@
                             "y": 0
                           },
                           {
-                            "x": 65,
+                            "x": 80,
                             "y": 0
                           },
                           {
-                            "x": 65,
+                            "x": 80,
                             "y": 35
                           },
                           {
@@ -22828,6 +22882,72 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Victory_Door",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "Interactable",
+              "type": "boolean",
+              "value": false
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Victory_Door.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 131,
+                            "y": 0
+                          },
+                          {
+                            "x": 131,
+                            "y": 200
+                          },
+                          {
+                            "x": 0,
+                            "y": 200
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -22950,6 +23070,9 @@
               },
               {
                 "objectName": "Collision_CHECK"
+              },
+              {
+                "objectName": "Victory_Door"
               }
             ]
           },
@@ -23178,6 +23301,17 @@
                 "=",
                 "0"
               ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "Victory_Door",
+                "Opacity",
+                "=",
+                "0"
+              ]
             }
           ]
         },
@@ -23340,7 +23474,7 @@
                   "parameters": [
                     "Gash",
                     "Health",
-                    "100\n",
+                    "55",
                     "",
                     "",
                     ""
@@ -25120,7 +25254,7 @@
                   "parameters": [
                     "Knight",
                     "Health",
-                    "15",
+                    "25",
                     "",
                     "",
                     ""
@@ -25319,7 +25453,7 @@
                   "parameters": [
                     "Knight",
                     "Health",
-                    "35",
+                    "43",
                     "",
                     "",
                     ""
@@ -26216,7 +26350,70 @@
               ]
             }
           ],
-          "actions": []
+          "actions": [
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "Victory_Door",
+                "Opacity",
+                "=",
+                "100"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Victory_Door",
+                "Interactable",
+                "True",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Victory_Door",
+                "Interactable",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Knight",
+                "Victory_Door",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"GameOver\"",
+                ""
+              ]
+            }
+          ]
         },
         {
           "colorB": 228,
@@ -33723,7 +33920,6 @@
           "parameters": []
         },
         {
-          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -33810,6 +34006,7 @@
           "parameters": []
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
