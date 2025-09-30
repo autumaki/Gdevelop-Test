@@ -12097,7 +12097,7 @@
           "behaviors": [],
           "content": {
             "opacity": 255,
-            "loop": true,
+            "loop": false,
             "volume": 100,
             "videoResource": "Miside Mita Lonely Lonely Dance with other Mitas!.mp4"
           }
@@ -12226,17 +12226,15 @@
               "parameters": [
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "1.5"
-              ]
-            },
             {
               "type": {
                 "value": "Video::Play"
@@ -12246,11 +12244,6 @@
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -15526,7 +15519,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 2.130165915900334,
+        "zoomFactor": 1.295291655123629,
         "windowMask": true
       },
       "objectsGroups": [],
