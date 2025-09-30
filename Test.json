@@ -1,7 +1,7 @@
 {
   "firstLayout": "Main_Menu",
   "gdVersion": {
-    "build": 239,
+    "build": 242,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -3423,116 +3423,185 @@
         "userAdded": false
       },
       {
-        "file": "floor_spikes_anim_f0.png",
+        "file": "GameOver_Screen Assets/gameOver_effect.png",
         "kind": "image",
         "metadata": "",
-        "name": "floor_spikes_anim_f0.png",
+        "name": "GameOver_Screen Assets\\gameOver_effect.png",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "floor_spikes_anim_f1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "floor_spikes_anim_f1.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "floor_spikes_anim_f2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "floor_spikes_anim_f2.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "floor_spikes_anim_f3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "floor_spikes_anim_f3.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/tiled_Tiled Empty UI Heart.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "tiled_Tiled Empty UI Heart.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/688519c5bb4abaf5805518633f2ff810928e29164497fb5c13dabf97044be843_tiled_Tiled Empty UI Heart.png",
-          "name": "tiled_Tiled Empty UI Heart.png"
-        }
-      },
-      {
-        "file": "assets/tiled_Tiled Filler UI Heart.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "tiled_Tiled Filler UI Heart.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/5b5c6c85ec4e1f5b6688be565c9a06920a76ee191915738afd61da1481fd6493_tiled_Tiled Filler UI Heart.png",
-          "name": "tiled_Tiled Filler UI Heart.png"
-        }
-      },
-      {
-        "file": "assets/Flat Bar Red Fill Bar.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Flat Bar Red Fill Bar.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/212e9679eaae4753beaa5d595d7c80ea66df3235485c6a3963e88b0d936a1798_Flat Bar Red Fill Bar.png",
-          "name": "Flat Bar Red Fill Bar.png"
-        }
-      },
-      {
-        "file": "assets/Flat Bar White Border.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Flat Bar White Border.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/c090d31cafed0c8ef7bb4d5af75a7dbf7149bcc03a7d5d63ae997d59100e362e_Flat Bar White Border.png",
-          "name": "Flat Bar White Border.png"
-        }
-      },
-      {
-        "file": "assets/Slash/Bullet.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Slash\\Bullet.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "YOU DIED (HD).mp4",
-        "kind": "video",
-        "metadata": "",
-        "name": "YOU DIED (HD).mp4",
-        "userAdded": false
-      },
-      {
-        "file": "hornet_gitgud.mp3",
+        "file": "GameOver_Screen Assets/Sound Effects And Voice Lines/glass crack effect.mp3",
         "kind": "audio",
         "metadata": "",
-        "name": "hornet_gitgud.mp3",
+        "name": "GameOver_Screen Assets\\Sound Effects And Voice Lines\\glass crack effect.mp3",
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
       },
       {
-        "file": "assets/hornet.png",
+        "file": "GameOver_Screen Assets/Sound Effects And Voice Lines/Gmae_Over.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "GameOver_Screen Assets\\Sound Effects And Voice Lines\\Gmae_Over.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "GameOver_Screen Assets/Sound Effects And Voice Lines/Still beneath his captain.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "GameOver_Screen Assets\\Sound Effects And Voice Lines\\Still beneath his captain.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "../../../../Downloads/ezgif-split/1.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\hornet.png",
+        "name": "..\\..\\..\\..\\Downloads\\ezgif-split\\1.png",
         "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../../../../Downloads/ezgif-split/2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\Downloads\\ezgif-split\\2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../../../../Downloads/ezgif-split/4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\Downloads\\ezgif-split\\4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "9.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Boss_BGM_LMS.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Boss_BGM_LMS.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Boss_BGM_LMS_Cont2 - Copy.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Boss_BGM_LMS_Cont2 - Copy.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Boss_BGM_LMS_Cont2 - Copy2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Boss_BGM_LMS_Cont2 - Copy2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Boss_BGM_LMS_Cont2 - Copy3.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Boss_BGM_LMS_Cont2 - Copy3.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Boss_BGM_LMS_Cont2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Boss_BGM_LMS_Cont2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Boss_BGM_LMS_Cont3.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Boss_BGM_LMS_Cont3.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Boss_BGM_LMS_Cont4.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Boss_BGM_LMS_Cont4.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Boss_BGM_LMS_Cont5.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Boss_BGM_LMS_Cont5.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
         "userAdded": false
       }
     ],
@@ -6029,19 +6098,11 @@
       "effects": [],
       "behaviors": [
         {
-          "name": "Flash",
-          "type": "Flash::Flash",
-          "HalfPeriodTime": 0.1,
-          "IsFlashing": false,
-          "FlashDuration": 0
-        },
-        {
-          "isFolded": true,
           "name": "Health",
           "type": "Health::Health",
-          "Health": 5,
+          "Health": 550,
           "CurrentHealth": 0,
-          "MaxHealth": 5,
+          "MaxHealth": 551,
           "DamageCooldown": 1.5,
           "AllowOverHealing": false,
           "IsHealthJustDamaged": false,
@@ -9008,57 +9069,9 @@
       ]
     },
     {
-      "assetStoreId": "3d6c54e76a9a06cbd7629c1e78388d4ab808bbf36d644c61d6a14c9ad34d4f89",
-      "name": "RedFlatBar",
-      "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
-      "variant": "Red Flat Bar",
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Health",
-          "type": "Health::Health",
-          "Health": 100,
-          "CurrentHealth": 0,
-          "MaxHealth": 100,
-          "DamageCooldown": 0,
-          "AllowOverHealing": false,
-          "IsHealthJustDamaged": false,
-          "DamageToBeApplied": 0,
-          "HitAtLeastOnce": false,
-          "ChanceToDodge": 0,
-          "IsJustDodged": false,
-          "HealToBeApplied": 0,
-          "HealthRegenRate": 0,
-          "HealthRegenDelay": 0,
-          "IsJustHealed": false,
-          "CurrentShieldPoints": 2.0247e-320,
-          "MaxShieldPoints": 0,
-          "ShieldDuration": 5,
-          "ShieldRegenRate": 0,
-          "BlockExcessDamage": false,
-          "ShieldRegenDelay": 0,
-          "IsShieldJustDamaged": false,
-          "ShieldDamageTaken": 2.0247e-320,
-          "FlatDamageReduction": 0,
-          "PercentDamageReduction": 0
-        }
-      ],
-      "content": {
-        "PreviousHighValueDuration": 0,
-        "ShowLabel": true,
-        "BarTopPadding": 4,
-        "BarBottomPadding": 6,
-        "BarLeftPadding": 4,
-        "BarRightPadding": 4,
-        "MaxValue": 5,
-        "InitialValue": 5
-      }
-    },
-    {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Bullet",
+      "name": "GameOver",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -9075,12 +9088,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Slash\\Bullet.png",
+                  "image": "GameOver_Screen Assets\\gameOver_effect.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 961.5,
+                    "y": 538
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -9095,19 +9108,385 @@
                         "y": 0
                       },
                       {
-                        "x": 16,
+                        "x": 1920,
                         "y": 0
                       },
                       {
-                        "x": 16,
-                        "y": 16
+                        "x": 1920,
+                        "y": 1080
                       },
                       {
                         "x": 0,
-                        "y": 16
+                        "y": 1080
                       }
                     ]
                   ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "Trap",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NewSprite3",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Boss_Assets\\assets\\NewSprite40.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "Trap2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NewSprite3",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Boss_Assets\\assets\\NewSprite40.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "Trap3",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NewSprite3",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Boss_Assets\\assets\\NewSprite40.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
                 }
               ]
             }
@@ -9120,7 +9499,12 @@
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "RedFlatBar"
+        "folderName": "game_Over",
+        "children": [
+          {
+            "objectName": "GameOver"
+          }
+        ]
       },
       {
         "folderName": "Weapon",
@@ -9167,6 +9551,15 @@
       {
         "folderName": "Characters",
         "children": [
+          {
+            "objectName": "Trap"
+          },
+          {
+            "objectName": "Trap2"
+          },
+          {
+            "objectName": "Trap3"
+          },
           {
             "objectName": "Knight"
           },
@@ -9441,7 +9834,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3768772036750881,
+        "zoomFactor": 0.4913877545329365,
         "windowMask": false
       },
       "objectsGroups": [
@@ -10441,6 +10834,1378 @@
       ]
     },
     {
+      "b": 58,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "GameOver",
+      "name": "GameOver",
+      "r": 58,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 38,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.4913877545329367,
+        "windowMask": false
+      },
+      "objectsGroups": [
+        {
+          "name": "Camera",
+          "objects": [
+            {
+              "name": "Main_Menu"
+            },
+            {
+              "name": "SettingsMarker"
+            }
+          ]
+        }
+      ],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Play",
+          "persistentUuid": "2171ebba-f449-4cb2-b617-a3267d9b7dbc",
+          "width": 0,
+          "x": 740,
+          "y": 808,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Exit",
+          "persistentUuid": "548e277c-169e-44d8-ad28-14532121dd0c",
+          "width": 0,
+          "x": 879,
+          "y": 897,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 16,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Main_Menu",
+          "persistentUuid": "f6dc3933-c62a-4d73-ad77-fad7fe2fb639",
+          "width": 1917,
+          "x": 0,
+          "y": 0,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 16,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SettingsMarker",
+          "persistentUuid": "fb50ea2c-930e-422c-bde9-f3e771456622",
+          "width": 1850,
+          "x": 2324,
+          "y": 1,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Volume",
+          "persistentUuid": "0df39060-1842-4a99-a632-92afc4741413",
+          "width": 0,
+          "x": 2400,
+          "y": 525,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 172,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Title",
+          "persistentUuid": "b50044a3-8131-461e-b2bb-92fabecb6bc1",
+          "width": 1142,
+          "x": 475,
+          "y": 83,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Back",
+          "persistentUuid": "dce8361e-58d8-4430-8594-2d47341b8e19",
+          "width": 0,
+          "x": 2381,
+          "y": 65,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "VolumeSlider",
+          "persistentUuid": "eb30edbd-74a0-4413-a425-ae4d618bb129",
+          "width": 0,
+          "x": 2395,
+          "y": 575,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Music",
+          "persistentUuid": "e0af1fd2-db3f-4e44-9e07-f9c69f9e1326",
+          "width": 0,
+          "x": 2400,
+          "y": 645,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SFX",
+          "persistentUuid": "f18cead0-f908-4baa-8b1e-fea4358a8eba",
+          "width": 0,
+          "x": 2400,
+          "y": 779,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "VolumeSlider2",
+          "persistentUuid": "65109cde-1db6-4e21-bb5d-2b0ab99b6a4a",
+          "width": 0,
+          "x": 2400,
+          "y": 706,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "VolumeSlider3",
+          "persistentUuid": "6a051c58-1c27-490e-a04e-45bc59b18461",
+          "width": 0,
+          "x": 2400,
+          "y": 832,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Quit",
+          "persistentUuid": "6ffbbe6a-03a9-4ace-bdc1-5d2fc758aa66",
+          "width": 0,
+          "x": 891,
+          "y": 929,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 538,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Unnamed",
+          "persistentUuid": "5ac293e0-8df6-4669-9fa1-162417d60af5",
+          "width": 521,
+          "x": 784,
+          "y": 241,
+          "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1249,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GameOver",
+          "persistentUuid": "a833fed7-c6f1-45c1-870b-3e3273efd145",
+          "width": 2235,
+          "x": 1034,
+          "y": 573,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "name": "Title",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "Game Over",
+            "opacity": 255,
+            "scale": 8,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "assets\\Text\\PixelOperator8-Bold.fnt",
+            "textureAtlasResourceName": "assets\\Text\\PixelOperator8-Bold.png",
+            "align": "center",
+            "verticalTextAlignment": "top"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Play",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 2,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
+            }
+          ],
+          "content": {
+            "text": "Play Again",
+            "opacity": 255,
+            "scale": 4,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "assets\\Text\\PixelOperator8-Bold.fnt",
+            "textureAtlasResourceName": "assets\\Text\\PixelOperator8-Bold.png",
+            "align": "center",
+            "verticalTextAlignment": "top"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Settings",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 2,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
+            }
+          ],
+          "content": {
+            "text": "Settings",
+            "opacity": 255,
+            "scale": 4,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "assets\\Text\\PixelOperator8-Bold.fnt",
+            "textureAtlasResourceName": "assets\\Text\\PixelOperator8-Bold.png",
+            "align": "left",
+            "verticalTextAlignment": "top"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Quit",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 2,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [
+            {
+              "isFolded": true,
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
+            }
+          ],
+          "content": {
+            "text": "Quit",
+            "opacity": 255,
+            "scale": 4,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "assets\\Text\\PixelOperator8-Bold.fnt",
+            "textureAtlasResourceName": "assets\\Text\\PixelOperator8-Bold.png",
+            "align": "center",
+            "verticalTextAlignment": "top"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Main_Menu",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Checker_Box\\Spawn.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "SettingsMarker",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Checker_Box\\Spawn.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Volume",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "isFolded": true,
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
+            }
+          ],
+          "content": {
+            "text": "Volume",
+            "opacity": 255,
+            "scale": 2,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "assets\\Text\\PixelOperator8-Bold.fnt",
+            "textureAtlasResourceName": "assets\\Text\\PixelOperator8-Bold.png",
+            "align": "center",
+            "verticalTextAlignment": "top"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Back",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
+            }
+          ],
+          "content": {
+            "text": "Back\n",
+            "opacity": 255,
+            "scale": 2,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "assets\\Text\\PixelOperator8-Bold.fnt",
+            "textureAtlasResourceName": "assets\\Text\\PixelOperator8-Bold.png",
+            "align": "center",
+            "verticalTextAlignment": "top"
+          }
+        },
+        {
+          "assetStoreId": "bfeeb465a4a164b560a2215e3ff9e78e66123af43cbf7ef1f22d56fca4271c80",
+          "name": "VolumeSlider",
+          "type": "PanelSpriteSlider::PanelSpriteSlider",
+          "variant": "Square white slider",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "BarTopPadding": 6,
+            "BarLeftPadding": 6,
+            "BarRightPadding": 6,
+            "BarBottomPadding": 6,
+            "LabelMargin": 6,
+            "ShowLabelAtChanges": false
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Music",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "isFolded": true,
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
+            }
+          ],
+          "content": {
+            "text": "Music",
+            "opacity": 255,
+            "scale": 2,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "assets\\Text\\PixelOperator8-Bold.fnt",
+            "textureAtlasResourceName": "assets\\Text\\PixelOperator8-Bold.png",
+            "align": "center",
+            "verticalTextAlignment": "top"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "SFX",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "isFolded": true,
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
+            }
+          ],
+          "content": {
+            "text": "SFX",
+            "opacity": 255,
+            "scale": 2,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "assets\\Text\\PixelOperator8-Bold.fnt",
+            "textureAtlasResourceName": "assets\\Text\\PixelOperator8-Bold.png",
+            "align": "center",
+            "verticalTextAlignment": "top"
+          }
+        },
+        {
+          "assetStoreId": "bfeeb465a4a164b560a2215e3ff9e78e66123af43cbf7ef1f22d56fca4271c80",
+          "name": "VolumeSlider2",
+          "type": "PanelSpriteSlider::PanelSpriteSlider",
+          "variant": "Square white slider",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "BarTopPadding": 6,
+            "BarLeftPadding": 6,
+            "BarRightPadding": 6,
+            "BarBottomPadding": 6,
+            "LabelMargin": 6,
+            "ShowLabelAtChanges": false
+          }
+        },
+        {
+          "assetStoreId": "bfeeb465a4a164b560a2215e3ff9e78e66123af43cbf7ef1f22d56fca4271c80",
+          "name": "VolumeSlider3",
+          "type": "PanelSpriteSlider::PanelSpriteSlider",
+          "variant": "Square white slider",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "BarTopPadding": 6,
+            "BarLeftPadding": 6,
+            "BarRightPadding": 6,
+            "BarBottomPadding": 6,
+            "LabelMargin": 6,
+            "ShowLabelAtChanges": false
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Unnamed",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": ".\\..\\..\\..\\Downloads\\ezgif-split\\",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.1111111111111111,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 54,
+                            "y": 21
+                          },
+                          {
+                            "x": 940,
+                            "y": 21
+                          },
+                          {
+                            "x": 940,
+                            "y": 995
+                          },
+                          {
+                            "x": 54,
+                            "y": 995
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "..\\..\\..\\..\\Downloads\\ezgif-split\\1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 54,
+                            "y": 21
+                          },
+                          {
+                            "x": 940,
+                            "y": 21
+                          },
+                          {
+                            "x": 940,
+                            "y": 995
+                          },
+                          {
+                            "x": 54,
+                            "y": 995
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "..\\..\\..\\..\\Downloads\\ezgif-split\\2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 54,
+                            "y": 21
+                          },
+                          {
+                            "x": 940,
+                            "y": 21
+                          },
+                          {
+                            "x": 940,
+                            "y": 995
+                          },
+                          {
+                            "x": 54,
+                            "y": 995
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "..\\..\\..\\..\\Downloads\\ezgif-split\\4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 54,
+                            "y": 21
+                          },
+                          {
+                            "x": 940,
+                            "y": 21
+                          },
+                          {
+                            "x": 940,
+                            "y": 995
+                          },
+                          {
+                            "x": 54,
+                            "y": 995
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": []
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "folderName": "Buttons",
+            "children": [
+              {
+                "objectName": "SFX"
+              },
+              {
+                "objectName": "Music"
+              },
+              {
+                "objectName": "Volume"
+              },
+              {
+                "objectName": "Quit"
+              },
+              {
+                "objectName": "Settings"
+              },
+              {
+                "objectName": "Back"
+              },
+              {
+                "objectName": "Play"
+              },
+              {
+                "objectName": "Title"
+              }
+            ]
+          },
+          {
+            "objectName": "VolumeSlider"
+          },
+          {
+            "objectName": "VolumeSlider2"
+          },
+          {
+            "objectName": "VolumeSlider3"
+          },
+          {
+            "objectName": "Main_Menu"
+          },
+          {
+            "objectName": "SettingsMarker"
+          },
+          {
+            "objectName": "Unnamed"
+          }
+        ]
+      },
+      "events": [
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "GameOver",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "GameOver_Screen Assets\\Sound Effects And Voice Lines\\glass crack effect.mp3",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "GameOver_Screen Assets\\Sound Effects And Voice Lines\\glass crack effect.mp3",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "GameOver_Screen Assets\\Sound Effects And Voice Lines\\glass crack effect.mp3",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "4.5\n"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "GameOver",
+                "Opacity",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "UnloadSound"
+              },
+              "parameters": [
+                "",
+                "GameOver_Screen Assets\\Sound Effects And Voice Lines\\glass crack effect.mp3"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "GameOver_Screen Assets\\Sound Effects And Voice Lines\\Gmae_Over.mp3",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "GameOver_Screen Assets\\Sound Effects And Voice Lines\\Gmae_Over.mp3",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "GameOver_Screen Assets\\Sound Effects And Voice Lines\\Still beneath his captain.mp3",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "GameOver_Screen Assets\\Sound Effects And Voice Lines\\Still beneath his captain.mp3",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "Settings",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::TweenCameraPosition2"
+              },
+              "parameters": [
+                "",
+                "\"Main_Menu\"",
+                "SettingsMarker.CenterX()",
+                "CameraCenterY()",
+                "",
+                "\"easeInOutQuad\"",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "Play",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Main_Room\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "Back",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::TweenCameraPosition2"
+              },
+              "parameters": [
+                "",
+                "\"Main_Menu\"",
+                "Main_Menu.CenterX()",
+                "CameraCenterY()",
+                "",
+                "\"easeInOutQuad\"",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "Quit",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Quit"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Camera"
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "FireBullet",
+          "type": "FireBullet::FireBullet"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Health",
+          "type": "Health::Health"
+        },
+        {
+          "name": "ObjectSpawner",
+          "type": "ObjectSpawner::ObjectSpawner"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior"
+        },
+        {
+          "name": "RemapForTopdown",
+          "type": "BehaviorRemapper::RemapForTopdown"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        },
+        {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+        }
+      ]
+    },
+    {
       "b": 23,
       "disableInputWhenNotFocused": true,
       "mangledName": "Main_95Room",
@@ -10460,7 +12225,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.019275526148917,
+        "zoomFactor": 2.259253576955614,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -11358,7 +13123,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3673257545058923,
+        "zoomFactor": 1.4790395861757797,
         "windowMask": true
       },
       "objectsGroups": [],
@@ -11498,8 +13263,8 @@
           "name": "Gash",
           "persistentUuid": "f71c2490-82db-4467-9230-a22eff95b6c3",
           "width": 0,
-          "x": 607,
-          "y": 169,
+          "x": 603,
+          "y": 166,
           "zOrder": 54,
           "numberProperties": [],
           "stringProperties": [],
@@ -13138,7 +14903,7 @@
             {
               "name": "Health",
               "type": "Health::Health",
-              "Health": 100,
+              "Health": 1500,
               "CurrentHealth": 0,
               "MaxHealth": 1500,
               "DamageCooldown": 0,
@@ -13707,7 +15472,7 @@
                       "points": [
                         {
                           "name": "Atk_Detect",
-                          "x": 75,
+                          "x": 68,
                           "y": 34.5
                         }
                       ],
@@ -19445,128 +21210,6 @@
         {
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
-          "name": "Trap",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.1,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "NewSprite3",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Boss_Assets\\assets\\NewSprite40.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": false,
-          "assetStoreId": "",
           "name": "Minion_Summon2",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -22798,9 +24441,6 @@
             "objectName": "Sides_1_Spike_Attack_Hit_box"
           },
           {
-            "objectName": "Trap"
-          },
-          {
             "objectName": "Sides_2_Spike_Attack_Hit_box"
           },
           {
@@ -23125,14 +24765,13 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "Player Dmg Logic_To Bosses",
+          "name": "Player Dmg Logic",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [],
           "parameters": []
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -23161,7 +24800,7 @@
                   "parameters": [
                     "Gash",
                     "Health",
-                    "100",
+                    "100\n",
                     "",
                     "",
                     ""
@@ -24448,6 +26087,215 @@
                 "Animation",
                 "=",
                 "\" Minion_Run\""
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Trap_Dmg Logic",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Trap",
+                "Knight",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "Boss_Assets\\assets\\trap_step_on_3.mp3",
+                "3",
+                "75",
+                "100",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CameraShake::ShakeCamera"
+              },
+              "parameters": [
+                "",
+                "0.3",
+                "0.1",
+                "0.3",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Trap",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Health::Health::Hit"
+              },
+              "parameters": [
+                "Knight",
+                "Health",
+                "20",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Trap2",
+                "Knight",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "Boss_Assets\\assets\\trap_Step_on_2.mp3",
+                "3",
+                "100",
+                "100",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CameraShake::ShakeCamera"
+              },
+              "parameters": [
+                "",
+                "0.3",
+                "0.1",
+                "0.3",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Trap2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Health::Health::Hit"
+              },
+              "parameters": [
+                "Knight",
+                "Health",
+                "20",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Trap3",
+                "Knight",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "Boss_Assets\\assets\\trap_Step_on_effect.mp3",
+                "3",
+                "100",
+                "100",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CameraShake::ShakeCamera"
+              },
+              "parameters": [
+                "",
+                "0.3",
+                "0.1",
+                "0.3",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Trap3",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Health::Health::Hit"
+              },
+              "parameters": [
+                "Knight",
+                "Health",
+                "20",
+                "",
+                "",
+                ""
               ]
             }
           ]
@@ -25829,6 +27677,52 @@
             }
           ],
           "actions": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "GameOver",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Health::Health::Health"
+              },
+              "parameters": [
+                "Knight",
+                "Health",
+                "<=",
+                "0",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"GameOver\"",
+                ""
+              ]
+            }
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Link",
@@ -32117,8 +34011,20 @@
                   "parameters": [
                     "Gash",
                     "Health",
-                    ">=",
+                    "<=",
                     "1500",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Health::Health::Health"
+                  },
+                  "parameters": [
+                    "Gash",
+                    "Health",
+                    ">",
+                    "1000",
                     ""
                   ]
                 },
@@ -32194,6 +34100,12 @@
                             "=",
                             "1"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
                         }
                       ],
                       "actions": [],
@@ -32214,7 +34126,7 @@
                                 "value": "Wait"
                               },
                               "parameters": [
-                                "7"
+                                "3"
                               ]
                             },
                             {
@@ -32328,6 +34240,12 @@
                             "=",
                             "2"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
                         }
                       ],
                       "actions": [],
@@ -32348,7 +34266,7 @@
                                 "value": "Wait"
                               },
                               "parameters": [
-                                "7"
+                                "3"
                               ]
                             },
                             {
@@ -32462,6 +34380,12 @@
                             "=",
                             "3"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
                         }
                       ],
                       "actions": [],
@@ -32482,7 +34406,7 @@
                                 "value": "Wait"
                               },
                               "parameters": [
-                                "7"
+                                "3"
                               ]
                             },
                             {
@@ -32607,6 +34531,12 @@
                             "=",
                             "4"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
                         }
                       ],
                       "actions": [],
@@ -32627,7 +34557,7 @@
                                 "value": "Wait"
                               },
                               "parameters": [
-                                "7"
+                                "3"
                               ]
                             },
                             {
@@ -32763,6 +34693,12 @@
                             "=",
                             "5"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
                         }
                       ],
                       "actions": [],
@@ -32783,7 +34719,7 @@
                                 "value": "Wait"
                               },
                               "parameters": [
-                                "7"
+                                "4"
                               ]
                             },
                             {
@@ -32937,6 +34873,12 @@
                             "=",
                             "6"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
                         }
                       ],
                       "actions": [],
@@ -32957,7 +34899,7 @@
                                 "value": "Wait"
                               },
                               "parameters": [
-                                "7"
+                                "4"
                               ]
                             },
                             {
@@ -33111,6 +35053,12 @@
                             "=",
                             "7"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
                         }
                       ],
                       "actions": [],
@@ -33131,7 +35079,7 @@
                                 "value": "Wait"
                               },
                               "parameters": [
-                                "7"
+                                "4"
                               ]
                             },
                             {
@@ -33285,6 +35233,12 @@
                             "=",
                             "8"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
                         }
                       ],
                       "actions": [],
@@ -33305,7 +35259,7 @@
                                 "value": "Wait"
                               },
                               "parameters": [
-                                "3"
+                                "4"
                               ]
                             },
                             {
@@ -33499,6 +35453,12 @@
                     "=",
                     "0"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
@@ -33606,14 +35566,34 @@
           "conditions": [
             {
               "type": {
-                "value": "Health::Health::Health"
+                "value": "BuiltinCommonInstructions::And"
               },
-              "parameters": [
-                "Gash",
-                "Health",
-                ">=",
-                "1500",
-                ""
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "Health::Health::Health"
+                  },
+                  "parameters": [
+                    "Gash",
+                    "Health",
+                    "<=",
+                    "1500",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Health::Health::Health"
+                  },
+                  "parameters": [
+                    "Gash",
+                    "Health",
+                    ">",
+                    "1000",
+                    ""
+                  ]
+                }
               ]
             },
             {
@@ -33766,14 +35746,34 @@
           "conditions": [
             {
               "type": {
-                "value": "Health::Health::Health"
+                "value": "BuiltinCommonInstructions::And"
               },
-              "parameters": [
-                "Gash",
-                "Health",
-                ">=",
-                "1500",
-                ""
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "Health::Health::Health"
+                  },
+                  "parameters": [
+                    "Gash",
+                    "Health",
+                    "<=",
+                    "1500",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Health::Health::Health"
+                  },
+                  "parameters": [
+                    "Gash",
+                    "Health",
+                    ">",
+                    "1000",
+                    ""
+                  ]
+                }
               ]
             },
             {
@@ -33895,6 +35895,7 @@
           "parameters": []
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -33961,6 +35962,92 @@
               "parameters": [
                 "",
                 "Boss_Assets\\assets\\Boss_BGM_Layer 3.mp3",
+                "1",
+                "no",
+                "55",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Phase 3_Music (Version 2)",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "Health::Health::Health"
+                  },
+                  "parameters": [
+                    "Gash",
+                    "Health",
+                    "<=",
+                    "500",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Health::Health::Health"
+                  },
+                  "parameters": [
+                    "Gash",
+                    "Health",
+                    ">",
+                    "250",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "UnloadMusic"
+              },
+              "parameters": [
+                "",
+                "Boss_Assets\\assets\\Boss_BGM_Layer 2.mp3"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "5.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "LMS_Ver2.mp3",
                 "1",
                 "yes",
                 "55",
@@ -34033,6 +36120,15 @@
             },
             {
               "type": {
+                "value": "UnloadMusic"
+              },
+              "parameters": [
+                "",
+                "LMS_Ver2.mp3"
+              ]
+            },
+            {
+              "type": {
                 "value": "Wait"
               },
               "parameters": [
@@ -34047,74 +36143,9 @@
                 "",
                 "Boss_Assets\\assets\\Boss_BGM_LMS.mp3",
                 "2",
-                "yes",
+                "no",
                 "55",
                 ""
-              ]
-            },
-            {
-              "type": {
-                "value": "FadeMusicVolume"
-              },
-              "parameters": [
-                "",
-                "2",
-                "0",
-                "10"
-              ]
-            }
-          ]
-        },
-        {
-          "disabled": true,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::And"
-              },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "Health::Health::Health"
-                  },
-                  "parameters": [
-                    "Gash",
-                    "Health",
-                    "<=",
-                    "250",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BooleanObjectVariable"
-                  },
-                  "parameters": [
-                    "Gash",
-                    "Dead",
-                    "False",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "UnloadMusic"
-              },
-              "parameters": [
-                "",
-                "Boss_Assets\\assets\\Boss_BGM_Layer 3.mp3"
               ]
             },
             {
@@ -34122,7 +36153,16 @@
                 "value": "Wait"
               },
               "parameters": [
-                "9.5"
+                "87"
+              ]
+            },
+            {
+              "type": {
+                "value": "UnloadMusic"
+              },
+              "parameters": [
+                "",
+                "Boss_Assets\\assets\\Boss_BGM_LMS.mp3"
               ]
             },
             {
@@ -34131,41 +36171,104 @@
               },
               "parameters": [
                 "",
-                "LMS_Ver2.mp3",
+                "Boss_BGM_LMS_Cont2.mp3",
                 "2",
-                "yes",
+                "no",
                 "55",
                 ""
               ]
             },
             {
               "type": {
-                "value": "FadeMusicVolume"
+                "value": "Wait"
               },
               "parameters": [
-                "",
-                "2",
-                "0",
-                "2"
+                "87"
               ]
             },
             {
               "type": {
-                "value": "FadeMusicVolume"
+                "value": "UnloadMusic"
               },
               "parameters": [
                 "",
+                "Boss_BGM_LMS_Cont2.mp3"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "Boss_BGM_LMS_Cont3.mp3",
                 "2",
+                "no",
                 "55",
-                "0.5"
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "87"
+              ]
+            },
+            {
+              "type": {
+                "value": "UnloadMusic"
+              },
+              "parameters": [
+                "",
+                "Boss_BGM_LMS_Cont3.mp3"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "Boss_BGM_LMS_Cont4.mp3",
+                "2",
+                "no",
+                "55",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "87"
+              ]
+            },
+            {
+              "type": {
+                "value": "UnloadMusic"
+              },
+              "parameters": [
+                "",
+                "Boss_BGM_LMS_Cont4.mp3"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "Boss_BGM_LMS_Cont5.mp3",
+                "2",
+                "no",
+                "55",
+                ""
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         }
       ]
     },
@@ -35964,6 +38067,12 @@
                             "=",
                             "1"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
                         }
                       ],
                       "actions": [],
@@ -35984,7 +38093,7 @@
                                 "value": "Wait"
                               },
                               "parameters": [
-                                "5"
+                                "3"
                               ]
                             },
                             {
@@ -36098,6 +38207,12 @@
                             "=",
                             "2"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
                         }
                       ],
                       "actions": [],
@@ -36118,7 +38233,7 @@
                                 "value": "Wait"
                               },
                               "parameters": [
-                                "5"
+                                "3"
                               ]
                             },
                             {
@@ -36232,6 +38347,12 @@
                             "=",
                             "3"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
                         }
                       ],
                       "actions": [],
@@ -36252,7 +38373,7 @@
                                 "value": "Wait"
                               },
                               "parameters": [
-                                "5"
+                                "3"
                               ]
                             },
                             {
@@ -36377,6 +38498,12 @@
                             "=",
                             "4"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
                         }
                       ],
                       "actions": [],
@@ -36397,7 +38524,7 @@
                                 "value": "Wait"
                               },
                               "parameters": [
-                                "5"
+                                "3"
                               ]
                             },
                             {
@@ -36533,6 +38660,12 @@
                             "=",
                             "5"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
                         }
                       ],
                       "actions": [],
@@ -36553,7 +38686,7 @@
                                 "value": "Wait"
                               },
                               "parameters": [
-                                "5"
+                                "4"
                               ]
                             },
                             {
@@ -36690,160 +38823,6 @@
                               ]
                             }
                           ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "BuiltinCommonInstructions::Once"
-                              },
-                              "parameters": []
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "Wait"
-                              },
-                              "parameters": [
-                                "5"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "PlaySound"
-                              },
-                              "parameters": [
-                                "",
-                                "Boss_Assets\\assets\\Come my crew.wav",
-                                "",
-                                "75",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Wait"
-                              },
-                              "parameters": [
-                                "5.1"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Create"
-                              },
-                              "parameters": [
-                                "",
-                                "c00lkidd",
-                                "Marker4.X()",
-                                "Marker4.Y()",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "ResizableCapability::ResizableBehavior::SetSize"
-                              },
-                              "parameters": [
-                                "c00lkidd",
-                                "Resizable",
-                                "65",
-                                "65"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "PlaySound"
-                              },
-                              "parameters": [
-                                "",
-                                "Boss_Assets\\assets\\Minion_(Ready or not here we come).mp3",
-                                "",
-                                "75",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Wait"
-                              },
-                              "parameters": [
-                                "0.5"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "PlaySound"
-                              },
-                              "parameters": [
-                                "",
-                                "Boss_Assets\\assets\\walk_speed.mp3",
-                                "",
-                                "75",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "FlippableCapability::FlippableBehavior::FlipX"
-                              },
-                              "parameters": [
-                                "c00lkidd",
-                                "Flippable",
-                                "yes"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "PathfindingBehavior::SetDestination"
-                              },
-                              "parameters": [
-                                "c00lkidd",
-                                "Pathfinding",
-                                "",
-                                "Marker10.X()",
-                                "Marker10.Y()"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "SetNumberObjectVariable"
-                              },
-                              "parameters": [
-                                "Gash",
-                                "Behavior",
-                                "=",
-                                "0"
-                              ]
-                            }
-                          ],
-                          "events": [
-                            {
-                              "type": "BuiltinCommonInstructions::Standard",
-                              "conditions": [],
-                              "actions": [
-                                {
-                                  "type": {
-                                    "value": "Wait"
-                                  },
-                                  "parameters": [
-                                    "1.5"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "Delete"
-                                  },
-                                  "parameters": [
-                                    "c00lkidd",
-                                    ""
-                                  ]
-                                }
-                              ]
-                            }
-                          ]
                         }
                       ]
                     },
@@ -36861,6 +38840,12 @@
                             "=",
                             "6"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
                         }
                       ],
                       "actions": [],
@@ -36881,7 +38866,7 @@
                                 "value": "Wait"
                               },
                               "parameters": [
-                                "5"
+                                "4"
                               ]
                             },
                             {
@@ -37018,160 +39003,6 @@
                               ]
                             }
                           ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "BuiltinCommonInstructions::Once"
-                              },
-                              "parameters": []
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "Wait"
-                              },
-                              "parameters": [
-                                "5"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "PlaySound"
-                              },
-                              "parameters": [
-                                "",
-                                "Boss_Assets\\assets\\We shall see whos evil is greater.wav",
-                                "",
-                                "75",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Wait"
-                              },
-                              "parameters": [
-                                "4.1"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Create"
-                              },
-                              "parameters": [
-                                "",
-                                "c00lkidd",
-                                "Marker4.X()",
-                                "Marker4.Y()",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "ResizableCapability::ResizableBehavior::SetSize"
-                              },
-                              "parameters": [
-                                "c00lkidd",
-                                "Resizable",
-                                "65",
-                                "65"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "PlaySound"
-                              },
-                              "parameters": [
-                                "",
-                                "Boss_Assets\\assets\\rattle em boys.mp3",
-                                "",
-                                "75",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Wait"
-                              },
-                              "parameters": [
-                                "0.5"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "PlaySound"
-                              },
-                              "parameters": [
-                                "",
-                                "Boss_Assets\\assets\\walk_speed2.mp3",
-                                "",
-                                "75",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "FlippableCapability::FlippableBehavior::FlipX"
-                              },
-                              "parameters": [
-                                "c00lkidd",
-                                "Flippable",
-                                "no"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "PathfindingBehavior::SetDestination"
-                              },
-                              "parameters": [
-                                "c00lkidd",
-                                "Pathfinding",
-                                "",
-                                "Marker10.X()",
-                                "Marker10.Y()"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "SetNumberObjectVariable"
-                              },
-                              "parameters": [
-                                "Gash",
-                                "Behavior",
-                                "=",
-                                "0"
-                              ]
-                            }
-                          ],
-                          "events": [
-                            {
-                              "type": "BuiltinCommonInstructions::Standard",
-                              "conditions": [],
-                              "actions": [
-                                {
-                                  "type": {
-                                    "value": "Wait"
-                                  },
-                                  "parameters": [
-                                    "1"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "Delete"
-                                  },
-                                  "parameters": [
-                                    "c00lkidd",
-                                    ""
-                                  ]
-                                }
-                              ]
-                            }
-                          ]
                         }
                       ]
                     },
@@ -37189,6 +39020,12 @@
                             "=",
                             "7"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
                         }
                       ],
                       "actions": [],
@@ -37209,7 +39046,7 @@
                                 "value": "Wait"
                               },
                               "parameters": [
-                                "5"
+                                "4"
                               ]
                             },
                             {
@@ -37346,160 +39183,6 @@
                               ]
                             }
                           ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "BuiltinCommonInstructions::Once"
-                              },
-                              "parameters": []
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "Wait"
-                              },
-                              "parameters": [
-                                "5"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "PlaySound"
-                              },
-                              "parameters": [
-                                "",
-                                "Boss_Assets\\assets\\I am captain of this lake.wav",
-                                "",
-                                "75",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Wait"
-                              },
-                              "parameters": [
-                                "3.1"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Create"
-                              },
-                              "parameters": [
-                                "",
-                                "c00lkidd",
-                                "Marker9.X()",
-                                "Marker9.Y()",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "ResizableCapability::ResizableBehavior::SetSize"
-                              },
-                              "parameters": [
-                                "c00lkidd",
-                                "Resizable",
-                                "65",
-                                "65"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "PlaySound"
-                              },
-                              "parameters": [
-                                "",
-                                "Boss_Assets\\assets\\rattle em boys.mp3",
-                                "",
-                                "75",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Wait"
-                              },
-                              "parameters": [
-                                "0.5"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "PlaySound"
-                              },
-                              "parameters": [
-                                "",
-                                "Boss_Assets\\assets\\walk_speed2.mp3",
-                                "",
-                                "75",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "FlippableCapability::FlippableBehavior::FlipX"
-                              },
-                              "parameters": [
-                                "c00lkidd",
-                                "Flippable",
-                                "yes"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "PathfindingBehavior::SetDestination"
-                              },
-                              "parameters": [
-                                "c00lkidd",
-                                "Pathfinding",
-                                "",
-                                "Marker10.X()",
-                                "Marker10.Y()"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "SetNumberObjectVariable"
-                              },
-                              "parameters": [
-                                "Gash",
-                                "Behavior",
-                                "=",
-                                "0"
-                              ]
-                            }
-                          ],
-                          "events": [
-                            {
-                              "type": "BuiltinCommonInstructions::Standard",
-                              "conditions": [],
-                              "actions": [
-                                {
-                                  "type": {
-                                    "value": "Wait"
-                                  },
-                                  "parameters": [
-                                    "1"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "Delete"
-                                  },
-                                  "parameters": [
-                                    "c00lkidd",
-                                    ""
-                                  ]
-                                }
-                              ]
-                            }
-                          ]
                         }
                       ]
                     },
@@ -37517,6 +39200,12 @@
                             "=",
                             "8"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
                         }
                       ],
                       "actions": [],
@@ -37537,7 +39226,7 @@
                                 "value": "Wait"
                               },
                               "parameters": [
-                                "7"
+                                "4"
                               ]
                             },
                             {
@@ -37731,6 +39420,12 @@
                     "=",
                     "0"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
@@ -37865,14 +39560,14 @@
                     "500",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
             }
           ],
           "actions": [
@@ -38057,7 +39752,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "Only trigger if the enemy's HP is below or equals to 150 (Phase 3)",
+          "name": "Only trigger if the enemy's HP is below or equals to 500 (Phase 3)",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [],
@@ -38155,6 +39850,7 @@
                       "parameters": []
                     },
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -38209,7 +39905,19 @@
                                 "",
                                 "Boss_Assets\\assets\\Try and block this.wav",
                                 "",
-                                "75",
+                                "100",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "PlaySound"
+                              },
+                              "parameters": [
+                                "",
+                                "Boss_Assets\\assets\\Try and block this.wav",
+                                "",
+                                "100",
                                 ""
                               ]
                             },
@@ -38303,73 +40011,6 @@
                                 "Behavior",
                                 "=",
                                 "0"
-                              ]
-                            }
-                          ],
-                          "events": [
-                            {
-                              "type": "BuiltinCommonInstructions::Standard",
-                              "conditions": [
-                                {
-                                  "type": {
-                                    "value": "CollisionNP"
-                                  },
-                                  "parameters": [
-                                    "Trap",
-                                    "Knight",
-                                    "",
-                                    "",
-                                    ""
-                                  ]
-                                }
-                              ],
-                              "actions": [
-                                {
-                                  "type": {
-                                    "value": "Health::Health::Hit"
-                                  },
-                                  "parameters": [
-                                    "Knight",
-                                    "Health",
-                                    "20",
-                                    "",
-                                    "",
-                                    ""
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "CameraShake::ShakeCamera"
-                                  },
-                                  "parameters": [
-                                    "",
-                                    "0.3",
-                                    "0.1",
-                                    "0.3",
-                                    ""
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "PlaySound"
-                                  },
-                                  "parameters": [
-                                    "",
-                                    "Boss_Assets\\assets\\trap_Step_on_effect.mp3",
-                                    "",
-                                    "100",
-                                    ""
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "Delete"
-                                  },
-                                  "parameters": [
-                                    "Trap",
-                                    ""
-                                  ]
-                                }
                               ]
                             }
                           ]
@@ -38432,7 +40073,19 @@
                                 "",
                                 "Boss_Assets\\assets\\Boss_Dash 1.mp3",
                                 "",
-                                "75",
+                                "100",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "PlaySound"
+                              },
+                              "parameters": [
+                                "",
+                                "Boss_Assets\\assets\\Boss_Dash 1.mp3",
+                                "",
+                                "100",
                                 ""
                               ]
                             },
@@ -38481,7 +40134,7 @@
                               },
                               "parameters": [
                                 "",
-                                "Trap",
+                                "Trap2",
                                 "Gash.X()",
                                 "Gash.Y()",
                                 ""
@@ -38526,73 +40179,6 @@
                                 "Behavior",
                                 "=",
                                 "0"
-                              ]
-                            }
-                          ],
-                          "events": [
-                            {
-                              "type": "BuiltinCommonInstructions::Standard",
-                              "conditions": [
-                                {
-                                  "type": {
-                                    "value": "CollisionNP"
-                                  },
-                                  "parameters": [
-                                    "Trap",
-                                    "Knight",
-                                    "",
-                                    "",
-                                    ""
-                                  ]
-                                }
-                              ],
-                              "actions": [
-                                {
-                                  "type": {
-                                    "value": "PlaySound"
-                                  },
-                                  "parameters": [
-                                    "",
-                                    "Boss_Assets\\assets\\trap_Step_on_2.mp3",
-                                    "",
-                                    "100",
-                                    ""
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "CameraShake::ShakeCamera"
-                                  },
-                                  "parameters": [
-                                    "",
-                                    "0.3",
-                                    "0.1",
-                                    "0.3",
-                                    ""
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "Delete"
-                                  },
-                                  "parameters": [
-                                    "Trap",
-                                    ""
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "Health::Health::Hit"
-                                  },
-                                  "parameters": [
-                                    "Knight",
-                                    "Health",
-                                    "20",
-                                    "",
-                                    "",
-                                    ""
-                                  ]
-                                }
                               ]
                             }
                           ]
@@ -38655,7 +40241,19 @@
                                 "",
                                 "Boss_Assets\\assets\\Boss_Dash 4.mp3",
                                 "",
-                                "75",
+                                "100",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "PlaySound"
+                              },
+                              "parameters": [
+                                "",
+                                "Boss_Assets\\assets\\Boss_Dash 4.mp3",
+                                "",
+                                "100",
                                 ""
                               ]
                             },
@@ -38704,7 +40302,7 @@
                               },
                               "parameters": [
                                 "",
-                                "Trap",
+                                "Trap3",
                                 "Gash.X()",
                                 "Gash.Y()",
                                 ""
@@ -38751,73 +40349,6 @@
                                 "0"
                               ]
                             }
-                          ],
-                          "events": [
-                            {
-                              "type": "BuiltinCommonInstructions::Standard",
-                              "conditions": [
-                                {
-                                  "type": {
-                                    "value": "CollisionNP"
-                                  },
-                                  "parameters": [
-                                    "Trap",
-                                    "Knight",
-                                    "",
-                                    "",
-                                    ""
-                                  ]
-                                }
-                              ],
-                              "actions": [
-                                {
-                                  "type": {
-                                    "value": "PlaySound"
-                                  },
-                                  "parameters": [
-                                    "",
-                                    "Boss_Assets\\assets\\trap_step_on_3.mp3",
-                                    "",
-                                    "75",
-                                    ""
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "CameraShake::ShakeCamera"
-                                  },
-                                  "parameters": [
-                                    "",
-                                    "0.3",
-                                    "0.1",
-                                    "0.3",
-                                    ""
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "Delete"
-                                  },
-                                  "parameters": [
-                                    "Trap",
-                                    ""
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "Health::Health::Hit"
-                                  },
-                                  "parameters": [
-                                    "Knight",
-                                    "Health",
-                                    "20",
-                                    "",
-                                    "",
-                                    ""
-                                  ]
-                                }
-                              ]
-                            }
                           ]
                         }
                       ]
@@ -38847,6 +40378,12 @@
                             "=",
                             "4"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
                         }
                       ],
                       "actions": [],
@@ -38981,6 +40518,12 @@
                             "=",
                             "5"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
                         }
                       ],
                       "actions": [],
@@ -39115,6 +40658,12 @@
                             "=",
                             "6"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
                         }
                       ],
                       "actions": [],
@@ -39271,6 +40820,12 @@
                             "=",
                             "7"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
                         }
                       ],
                       "actions": [],
@@ -39496,82 +41051,6 @@
                           "events": [
                             {
                               "type": "BuiltinCommonInstructions::Standard",
-                              "conditions": [
-                                {
-                                  "type": {
-                                    "value": "Health::Health::Health"
-                                  },
-                                  "parameters": [
-                                    "Minion_Summon",
-                                    "Health",
-                                    "<=",
-                                    "0",
-                                    ""
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "BuiltinCommonInstructions::Once"
-                                  },
-                                  "parameters": []
-                                }
-                              ],
-                              "actions": [
-                                {
-                                  "type": {
-                                    "value": "SetBooleanObjectVariable"
-                                  },
-                                  "parameters": [
-                                    "Minion_Summon",
-                                    "walking",
-                                    "False",
-                                    ""
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "PlaySound"
-                                  },
-                                  "parameters": [
-                                    "",
-                                    "Boss_Assets\\assets\\Minion Death.mp3",
-                                    "",
-                                    "100",
-                                    ""
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                                  },
-                                  "parameters": [
-                                    "Minion_Summon",
-                                    "Animation",
-                                    "=",
-                                    "\"death\""
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "Wait"
-                                  },
-                                  "parameters": [
-                                    "4.5\n"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "Delete"
-                                  },
-                                  "parameters": [
-                                    "Minion_Summon",
-                                    ""
-                                  ]
-                                }
-                              ]
-                            },
-                            {
-                              "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [],
                               "actions": [
                                 {
@@ -39653,6 +41132,12 @@
                             "=",
                             "8"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
                         }
                       ],
                       "actions": [],
@@ -39878,82 +41363,6 @@
                           "events": [
                             {
                               "type": "BuiltinCommonInstructions::Standard",
-                              "conditions": [
-                                {
-                                  "type": {
-                                    "value": "Health::Health::Health"
-                                  },
-                                  "parameters": [
-                                    "Minion_Summon2",
-                                    "Health",
-                                    "<=",
-                                    "0",
-                                    ""
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "BuiltinCommonInstructions::Once"
-                                  },
-                                  "parameters": []
-                                }
-                              ],
-                              "actions": [
-                                {
-                                  "type": {
-                                    "value": "SetBooleanObjectVariable"
-                                  },
-                                  "parameters": [
-                                    "Minion_Summon2",
-                                    "walking",
-                                    "False",
-                                    ""
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "PlaySound"
-                                  },
-                                  "parameters": [
-                                    "",
-                                    "Boss_Assets\\assets\\Minon Death 2 (head on a platetr).mp3",
-                                    "",
-                                    "100",
-                                    ""
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                                  },
-                                  "parameters": [
-                                    "Minion_Summon2",
-                                    "Animation",
-                                    "=",
-                                    "\"death\""
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "Wait"
-                                  },
-                                  "parameters": [
-                                    "4.5\n"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "Delete"
-                                  },
-                                  "parameters": [
-                                    "Minion_Summon2",
-                                    ""
-                                  ]
-                                }
-                              ]
-                            },
-                            {
-                              "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [],
                               "actions": [
                                 {
@@ -40035,6 +41444,12 @@
                             "=",
                             "9"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
                         }
                       ],
                       "actions": [],
@@ -40260,82 +41675,6 @@
                           "events": [
                             {
                               "type": "BuiltinCommonInstructions::Standard",
-                              "conditions": [
-                                {
-                                  "type": {
-                                    "value": "Health::Health::Health"
-                                  },
-                                  "parameters": [
-                                    "Minion_Summon",
-                                    "Health",
-                                    "<=",
-                                    "0",
-                                    ""
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "BuiltinCommonInstructions::Once"
-                                  },
-                                  "parameters": []
-                                }
-                              ],
-                              "actions": [
-                                {
-                                  "type": {
-                                    "value": "SetBooleanObjectVariable"
-                                  },
-                                  "parameters": [
-                                    "Minion_Summon3",
-                                    "walking",
-                                    "False",
-                                    ""
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "PlaySound"
-                                  },
-                                  "parameters": [
-                                    "",
-                                    "Boss_Assets\\assets\\Minion Death (sins).mp3",
-                                    "",
-                                    "100",
-                                    ""
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                                  },
-                                  "parameters": [
-                                    "Minion_Summon3",
-                                    "Animation",
-                                    "=",
-                                    "\"death\""
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "Wait"
-                                  },
-                                  "parameters": [
-                                    "4.5\n"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "Delete"
-                                  },
-                                  "parameters": [
-                                    "Minion_Summon3",
-                                    ""
-                                  ]
-                                }
-                              ]
-                            },
-                            {
-                              "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [],
                               "actions": [
                                 {
@@ -40428,6 +41767,12 @@
                             "=",
                             "10"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
                         }
                       ],
                       "actions": [],
@@ -40979,6 +42324,12 @@
                             "=",
                             "11"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
                         }
                       ],
                       "actions": [],
@@ -41560,6 +42911,12 @@
                             "=",
                             "12"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
                         }
                       ],
                       "actions": [],
@@ -42103,6 +43460,12 @@
                             "=",
                             "13"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
                         }
                       ],
                       "actions": [],
@@ -42807,6 +44170,12 @@
                     "=",
                     "0"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
@@ -43012,6 +44381,18 @@
             },
             {
               "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Boss_Assets\\assets\\Gash_Phase_2_Grunt.mp3",
+                "",
+                "100",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "Wait"
               },
               "parameters": [
@@ -43043,10 +44424,34 @@
             },
             {
               "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Boss_Assets\\assets\\Phase 2_INTRO.mp3",
+                "",
+                "50",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "Wait"
               },
               "parameters": [
                 "0.5\n"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Boss_Assets\\assets\\(Phase 3 Voice Line)Impail my skull.mp3",
+                "",
+                "120",
+                ""
               ]
             },
             {
@@ -43563,6 +44968,17 @@
                             },
                             {
                               "type": {
+                                "value": "FadeMusicVolume"
+                              },
+                              "parameters": [
+                                "",
+                                "2",
+                                "25",
+                                "3"
+                              ]
+                            },
+                            {
+                              "type": {
                                 "value": "PlaySoundCanal"
                               },
                               "parameters": [
@@ -43584,23 +45000,12 @@
                             },
                             {
                               "type": {
-                                "value": "FadeMusicVolume"
-                              },
-                              "parameters": [
-                                "",
-                                "2",
-                                "25",
-                                "3"
-                              ]
-                            },
-                            {
-                              "type": {
                                 "value": "PlaySoundCanal"
                               },
                               "parameters": [
                                 "",
                                 "Boss_Assets\\assets\\trap_sound1.mp3",
-                                "3",
+                                "4",
                                 "",
                                 "75",
                                 ""
@@ -43631,7 +45036,7 @@
                                 "value": "Wait"
                               },
                               "parameters": [
-                                "1"
+                                "1.5"
                               ]
                             },
                             {
@@ -43665,72 +45070,6 @@
                                 "Behavior",
                                 "=",
                                 "0"
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "CollisionNP"
-                              },
-                              "parameters": [
-                                "Trap",
-                                "Knight",
-                                "",
-                                "",
-                                ""
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "PlaySoundCanal"
-                              },
-                              "parameters": [
-                                "",
-                                "Boss_Assets\\assets\\trap_Step_on_effect.mp3",
-                                "3",
-                                "100",
-                                "100",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "CameraShake::ShakeCamera"
-                              },
-                              "parameters": [
-                                "",
-                                "0.3",
-                                "0.1",
-                                "0.3",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Delete"
-                              },
-                              "parameters": [
-                                "Trap",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Health::Health::Hit"
-                              },
-                              "parameters": [
-                                "Knight",
-                                "Health",
-                                "20",
-                                "",
-                                "",
-                                ""
                               ]
                             }
                           ]
@@ -43830,7 +45169,7 @@
                               "parameters": [
                                 "",
                                 "Boss_Assets\\assets\\trap_sound1.mp3",
-                                "3",
+                                "4",
                                 "75",
                                 "75",
                                 ""
@@ -43850,7 +45189,7 @@
                               },
                               "parameters": [
                                 "",
-                                "Trap",
+                                "Trap2",
                                 "Gash.X()",
                                 "Gash.Y()",
                                 ""
@@ -43895,72 +45234,6 @@
                                 "Behavior",
                                 "=",
                                 "0"
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "CollisionNP"
-                              },
-                              "parameters": [
-                                "Trap",
-                                "Knight",
-                                "",
-                                "",
-                                ""
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "PlaySoundCanal"
-                              },
-                              "parameters": [
-                                "",
-                                "Boss_Assets\\assets\\trap_Step_on_2.mp3",
-                                "3",
-                                "100",
-                                "100",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "CameraShake::ShakeCamera"
-                              },
-                              "parameters": [
-                                "",
-                                "0.3",
-                                "0.1",
-                                "0.3",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Delete"
-                              },
-                              "parameters": [
-                                "Trap",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Health::Health::Hit"
-                              },
-                              "parameters": [
-                                "Knight",
-                                "Health",
-                                "20",
-                                "",
-                                "",
-                                ""
                               ]
                             }
                           ]
@@ -44060,7 +45333,7 @@
                               "parameters": [
                                 "",
                                 "Boss_Assets\\assets\\trap_sound1.mp3",
-                                "3",
+                                "4",
                                 "75",
                                 "75",
                                 ""
@@ -44080,7 +45353,7 @@
                               },
                               "parameters": [
                                 "",
-                                "Trap",
+                                "Trap3",
                                 "Gash.X()",
                                 "Gash.Y()",
                                 ""
@@ -44125,72 +45398,6 @@
                                 "Behavior",
                                 "=",
                                 "0"
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "CollisionNP"
-                              },
-                              "parameters": [
-                                "Trap",
-                                "Knight",
-                                "",
-                                "",
-                                ""
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "PlaySoundCanal"
-                              },
-                              "parameters": [
-                                "",
-                                "Boss_Assets\\assets\\trap_step_on_3.mp3",
-                                "3",
-                                "75",
-                                "100",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "CameraShake::ShakeCamera"
-                              },
-                              "parameters": [
-                                "",
-                                "0.3",
-                                "0.1",
-                                "0.3",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Delete"
-                              },
-                              "parameters": [
-                                "Trap",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Health::Health::Hit"
-                              },
-                              "parameters": [
-                                "Knight",
-                                "Health",
-                                "20",
-                                "",
-                                "",
-                                ""
                               ]
                             }
                           ]
@@ -44535,6 +45742,138 @@
                                 ""
                               ]
                             }
+                          ],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "Wait"
+                                  },
+                                  "parameters": [
+                                    "25"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "SetBooleanObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "Minion_Summon",
+                                    "walking",
+                                    "False",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "PlaySound"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "Boss_Assets\\assets\\Minion Death.mp3",
+                                    "",
+                                    "100",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                  },
+                                  "parameters": [
+                                    "Minion_Summon",
+                                    "Animation",
+                                    "=",
+                                    "\"death\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Wait"
+                                  },
+                                  "parameters": [
+                                    "4.5\n"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Delete"
+                                  },
+                                  "parameters": [
+                                    "Minion_Summon",
+                                    ""
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "Wait"
+                                  },
+                                  "parameters": [
+                                    "25"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "SetBooleanObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "Minion_Summon2",
+                                    "walking",
+                                    "False",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "PlaySound"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "Boss_Assets\\assets\\Minion Death.mp3",
+                                    "",
+                                    "100",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                  },
+                                  "parameters": [
+                                    "Minion_Summon2",
+                                    "Animation",
+                                    "=",
+                                    "\"death\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Wait"
+                                  },
+                                  "parameters": [
+                                    "4.5\n"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Delete"
+                                  },
+                                  "parameters": [
+                                    "Minion_Summon2",
+                                    ""
+                                  ]
+                                }
+                              ]
+                            }
                           ]
                         }
                       ]
@@ -44821,6 +46160,73 @@
                                 ""
                               ]
                             }
+                          ],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "Wait"
+                                  },
+                                  "parameters": [
+                                    "25"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "SetBooleanObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "Minion_Summon2",
+                                    "walking",
+                                    "False",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "PlaySound"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "Boss_Assets\\assets\\Minon Death 2 (head on a platetr).mp3",
+                                    "",
+                                    "100",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                  },
+                                  "parameters": [
+                                    "Minion_Summon2",
+                                    "Animation",
+                                    "=",
+                                    "\"death\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Wait"
+                                  },
+                                  "parameters": [
+                                    "4.5\n"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Delete"
+                                  },
+                                  "parameters": [
+                                    "Minion_Summon2",
+                                    ""
+                                  ]
+                                }
+                              ]
+                            }
                           ]
                         }
                       ]
@@ -45096,6 +46502,73 @@
                                 ""
                               ]
                             }
+                          ],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "Wait"
+                                  },
+                                  "parameters": [
+                                    "25"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "SetBooleanObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "Minion_Summon3",
+                                    "walking",
+                                    "False",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "PlaySound"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "Boss_Assets\\assets\\Minion Death (sins).mp3",
+                                    "",
+                                    "100",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                  },
+                                  "parameters": [
+                                    "Minion_Summon3",
+                                    "Animation",
+                                    "=",
+                                    "\"death\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Wait"
+                                  },
+                                  "parameters": [
+                                    "4.5\n"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Delete"
+                                  },
+                                  "parameters": [
+                                    "Minion_Summon3",
+                                    ""
+                                  ]
+                                }
+                              ]
+                            }
                           ]
                         }
                       ]
@@ -45263,7 +46736,7 @@
                               "parameters": [
                                 "",
                                 "Boss_Assets\\assets\\Gash_Spike_Attack.mp3",
-                                "3",
+                                "4",
                                 "100",
                                 "100",
                                 ""
@@ -45822,7 +47295,7 @@
                               "parameters": [
                                 "",
                                 "Boss_Assets\\assets\\Gash_Spike_Attack.mp3",
-                                "3",
+                                "4",
                                 "100",
                                 "100\n",
                                 ""
@@ -46424,7 +47897,7 @@
                               "parameters": [
                                 "",
                                 "Boss_Assets\\assets\\Gash_Spike_Attack.mp3",
-                                "3",
+                                "4",
                                 "100",
                                 "120",
                                 ""
@@ -47031,7 +48504,7 @@
                               "parameters": [
                                 "",
                                 "Boss_Assets\\assets\\Gash_Spike_Attack.mp3",
-                                "3",
+                                "4",
                                 "100",
                                 "120",
                                 ""
