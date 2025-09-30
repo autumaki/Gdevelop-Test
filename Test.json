@@ -3660,6 +3660,22 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Slash/Health upgrade.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Slash\\Health upgrade.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Slash/Atk upgrade.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Slash\\Atk upgrade.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -12449,16 +12465,16 @@
       "title": "",
       "v": 17,
       "uiSettings": {
-        "grid": false,
+        "grid": true,
         "gridType": "rectangular",
-        "gridWidth": 304,
-        "gridHeight": 192,
+        "gridWidth": 16,
+        "gridHeight": 16,
         "gridOffsetX": 0,
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": false,
-        "zoomFactor": 0.4163025217733443,
+        "snap": true,
+        "zoomFactor": 1.978576051913074,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -12910,6 +12926,38 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Upgrade_Health",
+          "persistentUuid": "c4391bea-12dd-4857-8e6c-b72d9be05ac4",
+          "width": 0,
+          "x": 720,
+          "y": 672,
+          "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Upgrade_Damage",
+          "persistentUuid": "0ac428a2-ae21-444e-b936-2e6f95a14b9d",
+          "width": 0,
+          "x": 800,
+          "y": 672,
+          "zOrder": 38,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -13010,6 +13058,126 @@
             "align": "left",
             "verticalTextAlignment": "center"
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Upgrade_Health",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Slash\\Health upgrade.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Upgrade_Damage",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Slash\\Atk upgrade.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -13032,6 +13200,12 @@
           },
           {
             "objectName": "Attack_text"
+          },
+          {
+            "objectName": "Upgrade_Health"
+          },
+          {
+            "objectName": "Upgrade_Damage"
           }
         ]
       },
@@ -49447,6 +49621,63 @@
                 "Gash",
                 "Intro_LMS",
                 "True",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "associatedLayout": "Main_Room",
+      "name": "Upgrade",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Upgrade_Health",
+                "Knight",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Health::Health::SetMaxHealthOp"
+              },
+              "parameters": [
+                "Knight",
+                "Health",
+                "=",
+                "8",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+              },
+              "parameters": [
+                "RedFlatBar",
+                "=",
+                "Knight.Health::MaxHealth()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Upgrade_Health",
                 ""
               ]
             }
