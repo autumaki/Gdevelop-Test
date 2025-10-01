@@ -3714,6 +3714,24 @@
         "name": "Victory_Door.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "Knight.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Souls of Fire - Dark Souls Soundtrack 01.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Souls of Fire - Dark Souls Soundtrack 01.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -4024,12 +4042,12 @@
         {
           "name": "ObjectSpawner",
           "type": "ObjectSpawner::ObjectSpawner",
-          "SpawnPeriod": 0.5,
+          "SpawnPeriod": 0.2,
           "OffsetX": 0,
           "OffsetY": 0,
           "JustSpawnedAnObject": false,
           "MaxQuantityReached": false,
-          "MaxQuantity": 2,
+          "MaxQuantity": 4,
           "SpawnerCapacity": 5,
           "UnlimitedCapacity": false,
           "RandomPosition": true
@@ -8584,7 +8602,7 @@
         {
           "name": "FireBullet",
           "type": "FireBullet::FireBullet",
-          "FireCooldown": 0.5,
+          "FireCooldown": 0.3,
           "HasJustFired": false,
           "RotateBullet": true,
           "FiringArc": 45,
@@ -10087,15 +10105,15 @@
   ],
   "layouts": [
     {
-      "b": 58,
+      "b": 10,
       "disableInputWhenNotFocused": true,
       "mangledName": "Main_95Menu",
       "name": "Main_Menu",
-      "r": 58,
+      "r": 10,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
-      "v": 38,
+      "v": 9,
       "uiSettings": {
         "grid": false,
         "gridType": "rectangular",
@@ -10106,7 +10124,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3300560049165935,
+        "zoomFactor": 0.3895856273827297,
         "windowMask": false
       },
       "objectsGroups": [
@@ -10210,14 +10228,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 237,
+          "height": 157,
           "keepRatio": true,
           "layer": "",
           "name": "Title",
           "persistentUuid": "b50044a3-8131-461e-b2bb-92fabecb6bc1",
-          "width": 1584,
-          "x": 173,
-          "y": 158,
+          "width": 753,
+          "x": 32,
+          "y": 113,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -10261,76 +10279,45 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "Music",
-          "persistentUuid": "e0af1fd2-db3f-4e44-9e07-f9c69f9e1326",
-          "width": 0,
-          "x": 2400,
-          "y": 645,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "SFX",
-          "persistentUuid": "f18cead0-f908-4baa-8b1e-fea4358a8eba",
-          "width": 0,
-          "x": 2400,
-          "y": 779,
-          "zOrder": 12,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "VolumeSlider2",
-          "persistentUuid": "65109cde-1db6-4e21-bb5d-2b0ab99b6a4a",
-          "width": 0,
-          "x": 2400,
-          "y": 706,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "VolumeSlider3",
-          "persistentUuid": "6a051c58-1c27-490e-a04e-45bc59b18461",
-          "width": 0,
-          "x": 2400,
-          "y": 832,
-          "zOrder": 14,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
           "name": "Quit",
           "persistentUuid": "6ffbbe6a-03a9-4ace-bdc1-5d2fc758aa66",
           "width": 0,
           "x": 32,
           "y": 888,
           "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "ec39fef8-5091-43d1-9281-664bc956f0dd",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 69,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Play",
+          "persistentUuid": "93786acc-ac4a-415d-8bc1-b79112718ff0",
+          "width": 256,
+          "x": 32,
+          "y": 654,
+          "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10345,9 +10332,9 @@
           "effects": [],
           "behaviors": [],
           "content": {
-            "text": "TITLE IN PROGRESS",
+            "text": "DECADENCE",
             "opacity": 255,
-            "scale": 8,
+            "scale": 5,
             "fontSize": 20,
             "tint": "255;255;255",
             "bitmapFontResourceName": "assets\\Text\\PixelOperator8-Bold.fnt",
@@ -10672,7 +10659,13 @@
           "name": "VolumeSlider",
           "type": "PanelSpriteSlider::PanelSpriteSlider",
           "variant": "Square white slider",
-          "variables": [],
+          "variables": [
+            {
+              "name": "Volume",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
           "behaviors": [],
           "content": {
@@ -10681,7 +10674,8 @@
             "BarRightPadding": 6,
             "BarBottomPadding": 6,
             "LabelMargin": 6,
-            "ShowLabelAtChanges": false
+            "ShowLabelAtChanges": false,
+            "InitialValue": 100
           }
         },
         {
@@ -10717,7 +10711,7 @@
         },
         {
           "assetStoreId": "",
-          "name": "SFX",
+          "name": "Brightness",
           "type": "BitmapText::BitmapTextObject",
           "variables": [],
           "effects": [],
@@ -10735,7 +10729,7 @@
             }
           ],
           "content": {
-            "text": "SFX",
+            "text": "Brightness",
             "opacity": 255,
             "scale": 2,
             "fontSize": 20,
@@ -10765,20 +10759,86 @@
         },
         {
           "assetStoreId": "bfeeb465a4a164b560a2215e3ff9e78e66123af43cbf7ef1f22d56fca4271c80",
-          "name": "VolumeSlider3",
+          "name": "Brightness_Slider",
           "type": "PanelSpriteSlider::PanelSpriteSlider",
           "variant": "Square white slider",
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
           "content": {
             "BarTopPadding": 6,
             "BarLeftPadding": 6,
             "BarRightPadding": 6,
             "BarBottomPadding": 6,
             "LabelMargin": 6,
-            "ShowLabelAtChanges": false
+            "ShowLabelAtChanges": false,
+            "MaxValue": 100
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Knight.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1920,
+                            "y": 0
+                          },
+                          {
+                            "x": 1920,
+                            "y": 1080
+                          },
+                          {
+                            "x": 0,
+                            "y": 1080
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -10788,7 +10848,7 @@
             "folderName": "Buttons",
             "children": [
               {
-                "objectName": "SFX"
+                "objectName": "Brightness"
               },
               {
                 "objectName": "Music"
@@ -10820,17 +10880,53 @@
             "objectName": "VolumeSlider2"
           },
           {
-            "objectName": "VolumeSlider3"
+            "objectName": "Brightness_Slider"
           },
           {
             "objectName": "Main_Menu"
           },
           {
             "objectName": "SettingsMarker"
+          },
+          {
+            "objectName": "NewSprite"
           }
         ]
       },
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Souls of Fire - Dark Souls Soundtrack 01.mp3",
+                "yes",
+                "100",
+                ""
+              ]
+            }
+          ]
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -10955,6 +11051,59 @@
               },
               "parameters": [
                 "Camera"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Main_Menu"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "SettingsMarker"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteSlider::PanelSpriteSlider::IsActivated"
+              },
+              "parameters": [
+                "VolumeSlider",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModGlobalVolume"
+              },
+              "parameters": [
+                "",
+                "=",
+                "VolumeSlider.Value()"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "VolumeSlider",
+                "Volume",
+                "=",
+                "VolumeSlider.Value()"
               ]
             }
           ]
@@ -11086,6 +11235,10 @@
         {
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
         }
       ]
     },
@@ -16233,7 +16386,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.0891751186210314,
+        "zoomFactor": 0.024839860174449564,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -16842,7 +16995,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Beginning ",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -16862,7 +17014,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Z-Order",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -16878,7 +17029,7 @@
                   "parameters": [
                     "Entities",
                     "=",
-                    "Entities.Y()"
+                    "Entities.Y() "
                   ]
                 },
                 {
@@ -32684,7 +32835,7 @@
               },
               "parameters": [
                 "Rooms",
-                "Rooms",
+                "Knight",
                 "",
                 "",
                 "0"
@@ -33818,6 +33969,7 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -33827,7 +33979,7 @@
                   "parameters": [
                     "NumberOfRooms",
                     "<=",
-                    "5"
+                    "4"
                   ]
                 }
               ],
@@ -33838,6 +33990,7 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
+                  "folded": true,
                   "name": "4 ways",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -34912,7 +35065,7 @@
                   "parameters": [
                     "NumberOfRooms",
                     ">",
-                    "5"
+                    "4"
                   ]
                 }
               ],
@@ -35270,6 +35423,7 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
+                  "folded": true,
                   "name": "3 ways Up",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -36255,6 +36409,12 @@
                         "",
                         "\"Left\""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
                     }
                   ],
                   "actions": [
@@ -36270,6 +36430,18 @@
                         "Slash",
                         "Golden_Knight_Sword.Angle()",
                         "300",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "shing.mp3",
+                        "",
+                        "",
                         ""
                       ]
                     },
@@ -37000,26 +37172,12 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "DepartScene"
-                  },
-                  "parameters": [
-                    ""
-                  ]
-                }
-              ],
-              "actions": []
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
                     "value": "Distance"
                   },
                   "parameters": [
                     "Knight",
                     "Enemy_Spawn",
-                    "50",
+                    "70",
                     ""
                   ]
                 }
@@ -97303,14 +97461,13 @@
           "customSize": true,
           "depth": 1,
           "height": 130,
-          "keepRatio": true,
           "layer": "",
           "name": "Enemy_Spawn",
           "persistentUuid": "1339830b-5542-4551-a1dd-a2473cdc4e79",
-          "width": 239,
+          "width": 240,
           "x": 33,
           "y": 31,
-          "zOrder": 5,
+          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -97462,7 +97619,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 2.185555910253017,
+        "zoomFactor": 0.507957511813176,
         "windowMask": false
       }
     },
@@ -97681,7 +97838,7 @@
           "width": 240,
           "x": 32,
           "y": 30,
-          "zOrder": 5,
+          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -97697,7 +97854,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.8515977016557055,
+        "zoomFactor": 0.9227465364204596,
         "windowMask": false
       }
     },
@@ -97908,16 +98065,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1,
-          "height": 132,
-          "keepRatio": true,
+          "depth": 0.9848484848484849,
+          "height": 130,
           "layer": "",
           "name": "Enemy_Spawn",
           "persistentUuid": "677619a6-4a18-4e42-9099-27899ef75203",
           "width": 240,
           "x": 32,
           "y": 29,
-          "zOrder": 5,
+          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -97933,7 +98089,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.8515977016557041,
+        "zoomFactor": 1.1638682658311899,
         "windowMask": false
       }
     },
@@ -98145,14 +98301,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 131,
+          "height": 130,
           "layer": "",
           "name": "Enemy_Spawn",
           "persistentUuid": "124dfb7f-cf92-4afa-b992-b8b53a977c36",
-          "width": 238,
+          "width": 240,
           "x": 34,
           "y": 29,
-          "zOrder": 5,
+          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -98168,7 +98324,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.8515977016557055,
+        "zoomFactor": 0.9227465364204596,
         "windowMask": false
       }
     },
@@ -98397,211 +98553,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 2.335436353305464,
-        "windowMask": false
-      }
-    },
-    {
-      "associatedLayout": "Main_Room",
-      "name": "Up",
-      "instances": [
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Down_Up",
-          "persistentUuid": "d1e45818-30a2-4136-865f-a3d93d6f1b2d",
-          "width": 0,
-          "x": 0,
-          "y": 0,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Up",
-          "persistentUuid": "ab09b3e2-50fc-4efa-8f91-d5ba66a024bf",
-          "width": 0,
-          "x": 0,
-          "y": -128,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        }
-      ],
-      "editionSettings": {
-        "grid": true,
-        "gridType": "rectangular",
-        "gridWidth": 256,
-        "gridHeight": 128,
-        "gridOffsetX": 0,
-        "gridOffsetY": 0,
-        "gridColor": 10401023,
-        "gridAlpha": 0.8,
-        "snap": true,
-        "zoomFactor": 1.328972692326802,
-        "windowMask": false
-      }
-    },
-    {
-      "associatedLayout": "Main_Room",
-      "name": "Down",
-      "instances": [
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Down_Up",
-          "persistentUuid": "d1e45818-30a2-4136-865f-a3d93d6f1b2d",
-          "width": 0,
-          "x": 0,
-          "y": 0,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Down",
-          "persistentUuid": "db24c029-663d-4778-9782-171cc86266f6",
-          "width": 0,
-          "x": 0,
-          "y": 128,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        }
-      ],
-      "editionSettings": {
-        "grid": true,
-        "gridType": "rectangular",
-        "gridWidth": 256,
-        "gridHeight": 128,
-        "gridOffsetX": 0,
-        "gridOffsetY": 0,
-        "gridColor": 10401023,
-        "gridAlpha": 0.8,
-        "snap": true,
-        "zoomFactor": 1.328972692326802,
-        "windowMask": false
-      }
-    },
-    {
-      "associatedLayout": "Main_Room",
-      "name": "Left",
-      "instances": [
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Left_Right",
-          "persistentUuid": "cf887e73-e753-4afa-8aa6-38e630dcb15d",
-          "width": 0,
-          "x": 0,
-          "y": 0,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Left",
-          "persistentUuid": "f6d3628c-dbad-4fac-ba92-0bf22c303ae9",
-          "width": 0,
-          "x": -256,
-          "y": 0,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        }
-      ],
-      "editionSettings": {
-        "grid": true,
-        "gridType": "rectangular",
-        "gridWidth": 256,
-        "gridHeight": 128,
-        "gridOffsetX": 0,
-        "gridOffsetY": 0,
-        "gridColor": 10401023,
-        "gridAlpha": 0.8,
-        "snap": true,
-        "zoomFactor": 0.781748642545177,
-        "windowMask": false
-      }
-    },
-    {
-      "associatedLayout": "Main_Room",
-      "name": "Right",
-      "instances": [
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Left_Right",
-          "persistentUuid": "618f44a8-0ecd-40ca-90f4-232bcc4d1ced",
-          "width": 0,
-          "x": 0,
-          "y": 0,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Right",
-          "persistentUuid": "ae2e814c-e0d1-4cf0-b5f3-48b9ccc78668",
-          "width": 0,
-          "x": 256,
-          "y": 0,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        }
-      ],
-      "editionSettings": {
-        "grid": true,
-        "gridType": "rectangular",
-        "gridWidth": 256,
-        "gridHeight": 128,
-        "gridOffsetX": 0,
-        "gridOffsetY": 0,
-        "gridColor": 10401023,
-        "gridAlpha": 0.8,
-        "snap": true,
-        "zoomFactor": 0.8353591827059906,
+        "zoomFactor": 0.8635277700823975,
         "windowMask": false
       }
     },
@@ -99085,7 +99037,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.6762448643325052,
+        "zoomFactor": 0.7562477198107315,
         "windowMask": false
       }
     },
@@ -99563,7 +99515,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.4679972091400713,
+        "zoomFactor": 0.8926462115230267,
         "windowMask": false
       }
     },
@@ -99905,7 +99857,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 2.259253576955556,
+        "zoomFactor": 1.1638682658311876,
         "windowMask": false
       }
     },
