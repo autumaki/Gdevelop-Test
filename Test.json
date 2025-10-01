@@ -4029,7 +4029,7 @@
           "OffsetY": 0,
           "JustSpawnedAnObject": false,
           "MaxQuantityReached": false,
-          "MaxQuantity": 3,
+          "MaxQuantity": 2,
           "SpawnerCapacity": 5,
           "UnlimitedCapacity": false,
           "RandomPosition": true
@@ -4947,8 +4947,8 @@
           "FireCooldown": 3,
           "HasJustFired": false,
           "RotateBullet": true,
-          "FiringArc": 45,
-          "BulletQuantity": 3,
+          "FiringArc": 360,
+          "BulletQuantity": 8,
           "AngleVariance": 0,
           "BulletSpeedVariance": 0,
           "AmmoQuantity": 0,
@@ -10075,30 +10075,14 @@
   ],
   "variables": [
     {
-      "name": "Player",
-      "type": "structure",
-      "children": [
-        {
-          "name": "FireRate",
-          "type": "number",
-          "value": 0
-        },
-        {
-          "name": "Health",
-          "type": "number",
-          "value": 5
-        },
-        {
-          "name": "MaxHealth",
-          "type": "number",
-          "value": 5
-        },
-        {
-          "name": "Power",
-          "type": "number",
-          "value": 0
-        }
-      ]
+      "name": "KnightHP",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "KnightMaxHP",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
@@ -16249,7 +16233,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.8635277700824183,
+        "zoomFactor": 1.0891751186210314,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -28592,18 +28576,19 @@
               "parameters": [
                 "Knight",
                 "Health",
-                "Knight.Health::Health() + VariableChildCount(Player.Health)",
+                "GlobalVariable(KnightHP)",
                 ""
               ]
             },
             {
               "type": {
-                "value": "Health::Health::SetHealth"
+                "value": "Health::Health::SetMaxHealthOp"
               },
               "parameters": [
                 "Knight",
                 "Health",
-                "Knight.Health::MaxHealth() + VariableChildCount(Player.MaxHealth)",
+                "=",
+                "GlobalVariable(KnightMaxHP)",
                 ""
               ]
             }
@@ -36512,9 +36497,9 @@
                 "value": "SetNumberVariable"
               },
               "parameters": [
-                "Player.Health",
-                "+",
-                "Knight.Health::Health() "
+                "KnightHP",
+                "=",
+                "Knight.Health::Health()"
               ]
             },
             {
@@ -36522,20 +36507,9 @@
                 "value": "SetNumberVariable"
               },
               "parameters": [
-                "Player.MaxHealth",
-                "+",
-                "Knight.Health::MaxHealth() "
-              ]
-            },
-            {
-              "type": {
-                "value": "Health::Health::SetHealth"
-              },
-              "parameters": [
-                "Knight",
-                "Health",
-                "5",
-                ""
+                "KnightMaxHP",
+                "=",
+                "Knight.Health::MaxHealth()"
               ]
             },
             {
