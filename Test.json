@@ -3660,6 +3660,60 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "Miside Mita Lonely Lonely Dance with other Mitas!.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "Miside Mita Lonely Lonely Dance with other Mitas!.mp4",
+        "userAdded": false
+      },
+      {
+        "file": "Agay/1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Agay\\1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Agay/2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Agay\\2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Agay/3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Agay\\3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Agay/4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Agay\\4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Erm.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "Erm.mp4",
+        "userAdded": false
+      },
+      {
+        "file": "Victory_Door.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Victory_Door.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -3976,7 +4030,7 @@
           "JustSpawnedAnObject": false,
           "MaxQuantityReached": false,
           "MaxQuantity": 3,
-          "SpawnerCapacity": 4,
+          "SpawnerCapacity": 5,
           "UnlimitedCapacity": false,
           "RandomPosition": true
         }
@@ -10021,23 +10075,28 @@
   ],
   "variables": [
     {
-      "name": "CharacterStats",
+      "name": "Player",
       "type": "structure",
       "children": [
         {
           "name": "FireRate",
-          "type": "string",
-          "value": "0"
+          "type": "number",
+          "value": 0
         },
         {
           "name": "Health",
-          "type": "string",
-          "value": "0"
+          "type": "number",
+          "value": 5
+        },
+        {
+          "name": "MaxHealth",
+          "type": "number",
+          "value": 5
         },
         {
           "name": "Power",
-          "type": "string",
-          "value": "0"
+          "type": "number",
+          "value": 0
         }
       ]
     }
@@ -10063,7 +10122,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4913877545329365,
+        "zoomFactor": 0.3300560049165935,
         "windowMask": false
       },
       "objectsGroups": [
@@ -10109,22 +10168,6 @@
           "x": 32,
           "y": 770,
           "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Exit",
-          "persistentUuid": "548e277c-169e-44d8-ad28-14532121dd0c",
-          "width": 0,
-          "x": 31,
-          "y": 890,
-          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -12393,6 +12436,10 @@
           "type": "FireBullet::FireBullet"
         },
         {
+          "name": "Flash",
+          "type": "Flash::Flash"
+        },
+        {
           "name": "Flippable",
           "type": "FlippableCapability::FlippableBehavior"
         },
@@ -12454,7 +12501,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.44485159988866624,
+        "zoomFactor": 0.38958562738273006,
         "windowMask": false
       },
       "objectsGroups": [
@@ -12484,22 +12531,6 @@
           "x": 21,
           "y": 942,
           "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Exit",
-          "persistentUuid": "548e277c-169e-44d8-ad28-14532121dd0c",
-          "width": 0,
-          "x": 1634,
-          "y": 898,
-          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -12675,7 +12706,7 @@
           "layer": "",
           "name": "_77777777",
           "persistentUuid": "bca58859-c2ce-41c3-b9ed-7231002ac205",
-          "width": 2078,
+          "width": 1925,
           "x": -4,
           "y": 15,
           "zOrder": 0,
@@ -13683,6 +13714,10 @@
           "type": "FireBullet::FireBullet"
         },
         {
+          "name": "Flash",
+          "type": "Flash::Flash"
+        },
+        {
           "name": "Flippable",
           "type": "FlippableCapability::FlippableBehavior"
         },
@@ -13744,7 +13779,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4913877545329367,
+        "zoomFactor": 0.561095208358209,
         "windowMask": false
       },
       "objectsGroups": [
@@ -13774,22 +13809,6 @@
           "x": 21,
           "y": 942,
           "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Exit",
-          "persistentUuid": "548e277c-169e-44d8-ad28-14532121dd0c",
-          "width": 0,
-          "x": 1634,
-          "y": 898,
-          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -13965,8 +13984,8 @@
           "layer": "",
           "name": "Desire",
           "persistentUuid": "bca58859-c2ce-41c3-b9ed-7231002ac205",
-          "width": 2078,
-          "x": -4,
+          "width": 1920,
+          "x": 0,
           "y": 15,
           "zOrder": 0,
           "numberProperties": [],
@@ -14972,6 +14991,10 @@
           "type": "FireBullet::FireBullet"
         },
         {
+          "name": "Flash",
+          "type": "Flash::Flash"
+        },
+        {
           "name": "Flippable",
           "type": "FlippableCapability::FlippableBehavior"
         },
@@ -15026,14 +15049,14 @@
       "uiSettings": {
         "grid": false,
         "gridType": "rectangular",
-        "gridWidth": 32,
-        "gridHeight": 32,
+        "gridWidth": 128,
+        "gridHeight": 128,
         "gridOffsetX": 0,
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4913877545329367,
+        "zoomFactor": 0.36458333333333454,
         "windowMask": false
       },
       "objectsGroups": [
@@ -15060,8 +15083,8 @@
           "name": "Play",
           "persistentUuid": "2171ebba-f449-4cb2-b617-a3267d9b7dbc",
           "width": 0,
-          "x": 327,
-          "y": 548,
+          "x": 233,
+          "y": 570,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -15077,8 +15100,8 @@
           "name": "Exit",
           "persistentUuid": "548e277c-169e-44d8-ad28-14532121dd0c",
           "width": 492,
-          "x": 822,
-          "y": 666,
+          "x": 718,
+          "y": 726,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -15144,8 +15167,8 @@
           "name": "Title",
           "persistentUuid": "b50044a3-8131-461e-b2bb-92fabecb6bc1",
           "width": 1142,
-          "x": 475,
-          "y": 83,
+          "x": 400,
+          "y": 89,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -15256,8 +15279,8 @@
           "name": "Quit",
           "persistentUuid": "6ffbbe6a-03a9-4ace-bdc1-5d2fc758aa66",
           "width": 0,
-          "x": 867,
-          "y": 694,
+          "x": 760,
+          "y": 757,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -16161,6 +16184,10 @@
           "type": "FireBullet::FireBullet"
         },
         {
+          "name": "Flash",
+          "type": "Flash::Flash"
+        },
+        {
           "name": "Flippable",
           "type": "FlippableCapability::FlippableBehavior"
         },
@@ -16222,7 +16249,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4163025217733443,
+        "zoomFactor": 0.8635277700824183,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -16820,7 +16847,7 @@
               "parameters": [
                 "Knight",
                 "Health",
-                "4",
+                "5",
                 ""
               ]
             }
@@ -17120,7 +17147,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.295291655123629,
+        "zoomFactor": 1.253038774059023,
         "windowMask": true
       },
       "objectsGroups": [],
@@ -18706,6 +18733,24 @@
           "x": 23,
           "y": 22,
           "zOrder": 60,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 61,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Victory_Door",
+          "opacity": 0,
+          "persistentUuid": "dfd05170-d5ba-4b06-9865-7ff93830781b",
+          "width": 39,
+          "x": 539,
+          "y": 146,
+          "zOrder": 61,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -28285,6 +28330,72 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Victory_Door",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "Interactable",
+              "type": "boolean",
+              "value": false
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Victory_Door.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 131,
+                            "y": 0
+                          },
+                          {
+                            "x": 131,
+                            "y": 200
+                          },
+                          {
+                            "x": 0,
+                            "y": 200
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -28407,6 +28518,9 @@
               },
               {
                 "objectName": "Collision_CHECK"
+              },
+              {
+                "objectName": "Victory_Door"
               }
             ]
           },
@@ -28458,6 +28572,43 @@
         ]
       },
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Health::Health::SetHealth"
+              },
+              "parameters": [
+                "Knight",
+                "Health",
+                "Knight.Health::Health() + VariableChildCount(Player.Health)",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Health::Health::SetHealth"
+              },
+              "parameters": [
+                "Knight",
+                "Health",
+                "Knight.Health::MaxHealth() + VariableChildCount(Player.MaxHealth)",
+                ""
+              ]
+            }
+          ]
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -29505,6 +29656,28 @@
                     "0.3",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Flash::Flash::Flash"
+                  },
+                  "parameters": [
+                    "Knight",
+                    "Flash",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                  },
+                  "parameters": [
+                    "RedFlatBar",
+                    "=",
+                    "Knight.Health::Health()",
+                    ""
+                  ]
                 }
               ]
             }
@@ -29684,6 +29857,28 @@
                     "0.3",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Flash::Flash::Flash"
+                  },
+                  "parameters": [
+                    "Knight",
+                    "Flash",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                  },
+                  "parameters": [
+                    "RedFlatBar",
+                    "=",
+                    "Knight.Health::Health()",
+                    ""
+                  ]
                 }
               ]
             }
@@ -29861,6 +30056,28 @@
                     "0.3",
                     "0.1",
                     "0.3",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Flash::Flash::Flash"
+                  },
+                  "parameters": [
+                    "Knight",
+                    "Flash",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                  },
+                  "parameters": [
+                    "RedFlatBar",
+                    "=",
+                    "Knight.Health::Health()",
                     ""
                   ]
                 }
@@ -30162,6 +30379,28 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "Flash::Flash::Flash"
+              },
+              "parameters": [
+                "Knight",
+                "Flash",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+              },
+              "parameters": [
+                "RedFlatBar",
+                "=",
+                "Knight.Health::Health()",
+                ""
+              ]
             }
           ]
         },
@@ -30228,6 +30467,28 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "Flash::Flash::Flash"
+              },
+              "parameters": [
+                "Knight",
+                "Flash",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+              },
+              "parameters": [
+                "RedFlatBar",
+                "=",
+                "Knight.Health::Health()",
+                ""
+              ]
             }
           ]
         },
@@ -30292,6 +30553,28 @@
                 "1",
                 "",
                 "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Flash::Flash::Flash"
+              },
+              "parameters": [
+                "Knight",
+                "Flash",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+              },
+              "parameters": [
+                "RedFlatBar",
+                "=",
+                "Knight.Health::Health()",
                 ""
               ]
             }
@@ -30606,6 +30889,28 @@
                     "0.3",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Flash::Flash::Flash"
+                  },
+                  "parameters": [
+                    "Knight",
+                    "Flash",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                  },
+                  "parameters": [
+                    "RedFlatBar",
+                    "=",
+                    "Knight.Health::Health()",
+                    ""
+                  ]
                 }
               ]
             }
@@ -30803,6 +31108,28 @@
                     "0.3",
                     "0.1",
                     "0.3",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Flash::Flash::Flash"
+                  },
+                  "parameters": [
+                    "Knight",
+                    "Flash",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                  },
+                  "parameters": [
+                    "RedFlatBar",
+                    "=",
+                    "Knight.Health::Health()",
                     ""
                   ]
                 }
@@ -31673,7 +32000,70 @@
               ]
             }
           ],
-          "actions": []
+          "actions": [
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "Victory_Door",
+                "Opacity",
+                "=",
+                "255"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Victory_Door",
+                "Interactable",
+                "True",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Victory_Door",
+                "Interactable",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Knight",
+                "Victory_Door",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"ChooseYourFATE\"",
+                ""
+              ]
+            }
+          ]
         },
         {
           "colorB": 228,
@@ -36001,35 +36391,6 @@
           "parameters": []
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Knight",
-                "Boss_Door",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Boss_FIGHT\"",
-                ""
-              ]
-            }
-          ]
-        },
-        {
           "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -36124,6 +36485,66 @@
               "parameters": [
                 "",
                 "\"Death Screen\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Knight",
+                "Boss_Door",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Player.Health",
+                "+",
+                "Knight.Health::Health() "
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Player.MaxHealth",
+                "+",
+                "Knight.Health::MaxHealth() "
+              ]
+            },
+            {
+              "type": {
+                "value": "Health::Health::SetHealth"
+              },
+              "parameters": [
+                "Knight",
+                "Health",
+                "5",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Boss_FIGHT\"",
                 ""
               ]
             }
@@ -36529,35 +36950,6 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "Knight",
-                "Boss_Door",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Boss_FIGHT\"",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
                 "Collision_CHECK",
                 "Knight",
                 "",
@@ -36613,11 +37005,6 @@
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         }
       ]
     },
@@ -37023,7 +37410,7 @@
               "parameters": [
                 "Knight",
                 "Flash",
-                "2",
+                "1",
                 ""
               ]
             },
@@ -37035,6 +37422,34 @@
                 "RedFlatBar",
                 "=",
                 "Knight.Health::Health()",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Bullet",
+                "wall_collision",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Bullet",
                 ""
               ]
             }
@@ -96913,14 +97328,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 128,
+          "height": 130,
           "keepRatio": true,
           "layer": "",
           "name": "Enemy_Spawn",
           "persistentUuid": "1339830b-5542-4551-a1dd-a2473cdc4e79",
-          "width": 240,
-          "x": 32,
-          "y": 32,
+          "width": 239,
+          "x": 33,
+          "y": 31,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -97073,7 +97488,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.9785760519130253,
+        "zoomFactor": 2.185555910253017,
         "windowMask": false
       }
     },
@@ -97285,13 +97700,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 128,
+          "height": 130,
           "layer": "",
           "name": "Enemy_Spawn",
           "persistentUuid": "718d7d69-d546-4c8c-b0ba-b3a4d6700f3d",
           "width": 240,
           "x": 32,
-          "y": 32,
+          "y": 30,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -97308,7 +97723,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 2.579747551301545,
+        "zoomFactor": 1.8515977016557055,
         "windowMask": false
       }
     },
@@ -97520,14 +97935,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 128,
+          "height": 132,
           "keepRatio": true,
           "layer": "",
           "name": "Enemy_Spawn",
           "persistentUuid": "677619a6-4a18-4e42-9099-27899ef75203",
           "width": 240,
           "x": 32,
-          "y": 32,
+          "y": 29,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -97544,7 +97959,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.7911979166666674,
+        "zoomFactor": 1.8515977016557041,
         "windowMask": false
       }
     },
@@ -97755,14 +98170,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1.2371134020618557,
-          "height": 128,
+          "depth": 1,
+          "height": 131,
           "layer": "",
           "name": "Enemy_Spawn",
           "persistentUuid": "124dfb7f-cf92-4afa-b992-b8b53a977c36",
-          "width": 240,
-          "x": 32,
-          "y": 32,
+          "width": 238,
+          "x": 34,
+          "y": 29,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -97779,7 +98194,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 2.9457062705702746,
+        "zoomFactor": 1.8515977016557055,
         "windowMask": false
       }
     },
@@ -99014,13 +99429,13 @@
       "instances": [
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
+          "customSize": true,
+          "depth": 0,
+          "height": 192,
           "layer": "",
           "name": "Down_Up",
           "persistentUuid": "6b733029-f76e-4578-9fee-a59d4189c445",
-          "width": 0,
+          "width": 304,
           "x": 0,
           "y": 0,
           "zOrder": 0,
@@ -99037,9 +99452,9 @@
           "layer": "",
           "name": "wall_collision",
           "persistentUuid": "b03ee9e1-dec5-49ae-af7b-adeb31e66116",
-          "width": 113,
-          "x": 144,
-          "y": -16,
+          "width": 133,
+          "x": 171,
+          "y": -15,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -99049,14 +99464,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 16,
+          "height": 20,
           "keepRatio": true,
           "layer": "",
           "name": "wall_collision",
           "persistentUuid": "51f75779-30de-47d1-a511-f9b1b19ac089",
-          "width": 111,
-          "x": -1,
-          "y": 112,
+          "width": 115,
+          "x": 15,
+          "y": 171,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -99087,9 +99502,9 @@
           "layer": "",
           "name": "Boss_Door",
           "persistentUuid": "4bf015eb-c464-4816-81bb-d26a4c32d39e",
-          "width": 36,
-          "x": 108,
-          "y": -15,
+          "width": 42,
+          "x": 129,
+          "y": -12,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -99099,14 +99514,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 127,
+          "height": 188,
           "keepRatio": true,
           "layer": "",
           "name": "wall_collision",
           "persistentUuid": "ec37c707-e7a9-454a-905c-b41dd0a50071",
           "width": 16,
-          "x": 242,
-          "y": 0,
+          "x": 288,
+          "y": 1,
           "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
@@ -99116,14 +99531,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 16,
+          "height": 18,
           "keepRatio": true,
           "layer": "",
           "name": "wall_collision",
           "persistentUuid": "e8ac9f26-e861-41aa-9d89-20514cb9eb3d",
-          "width": 112,
-          "x": 145,
-          "y": 113,
+          "width": 116,
+          "x": 173,
+          "y": 171,
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
@@ -99138,9 +99553,9 @@
           "layer": "",
           "name": "wall_collision",
           "persistentUuid": "f03d9e46-1587-400d-909a-8f4533a7192d",
-          "width": 112,
-          "x": 0,
-          "y": -16,
+          "width": 130,
+          "x": -1,
+          "y": -13,
           "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
@@ -99150,14 +99565,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 123,
+          "height": 197,
           "keepRatio": true,
           "layer": "",
           "name": "wall_collision",
           "persistentUuid": "82db9c01-a037-4b16-900c-4f2550dda5e8",
-          "width": 16,
-          "x": -2,
-          "y": -7,
+          "width": 17,
+          "x": -1,
+          "y": -5,
           "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
@@ -99174,7 +99589,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.914034187331343,
+        "zoomFactor": 1.4679972091400713,
         "windowMask": false
       }
     },
@@ -99345,7 +99760,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.9227465364204573,
+        "zoomFactor": 0.6622955665506393,
         "windowMask": false
       }
     },
